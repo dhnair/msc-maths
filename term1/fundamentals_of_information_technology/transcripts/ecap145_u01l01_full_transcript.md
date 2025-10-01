@@ -1,0 +1,91 @@
+---
+title: "ECAP145 - U01L01 Full Transcript"
+course: "ECAP145 - Fundamentals of Information Technology"
+lecture: "U01L01 - Characteristics and Generations of Computers"
+type: "Transcript"
+tags: [MScMathematics, IT, Transcript, ECAP145, LectureNotes]
+---
+
+
+# ECAP145 - U01L01 - Characteristics and Generations of Computers
+
+## Introduction
+After this lecture, you will be able to:
+- Understand the basics of computers
+- Define data processing
+- Explore the evolution of computers
+- Learn about the different generations of computers
+
+## What is a Computer?
+- The word "computer" comes from "compute," meaning "to calculate".
+- A computer is an electronic device that performs arithmetic and logical operations at high speed.
+- It is also called a data processor since it can store, process, and retrieve data as needed.
+
+## Data Processing
+- Subset of information processing using a computer system.
+- Involves collection, manipulation, and transformation of raw data into meaningful information.
+- Stages of data processing:
+  1. Data Collection (from surveys, networks, social media, forms, etc.)
+  2. Data Storage (internal memory, external devices)
+  3. Sorting (arranging data meaningfully)
+  4. Processing (performing operations on the data)
+  5. Analysis (extracting meaningful information)
+  6. Presentation (final organized information for the user)
+
+## Characteristics of Computers
+1. **Automatic** – work without human intervention once programmed.
+2. **High Speed** – operations measured in microseconds, nanoseconds, picoseconds.
+3. **Accuracy** – highly accurate results, errors usually due to wrong input or faulty programs.
+4. **Diligence** – no tiredness, monotony, or lack of concentration.
+5. **Versatility** – multitasking and capable of handling varied tasks.
+6. **Power of Remembrance** – store and recall huge amounts of data.
+7. **No IQ** – programmable, no self-intelligence, decisions based on instructions.
+8. **No Feelings** – devoid of emotions, follow instructions strictly.
+9. **Productivity Enhancement** – improves efficiency once software/tools are learned.
+
+## Evolution of Computers
+- **Mechanical Era (1623–1945)**
+  - Used mechanical components like levers and gears.
+  - Key inventions:
+    - Pascaline (1642, Blaise Pascal) – mechanical adding machine.
+    - Leibniz Calculator (1671–1694) – could add, subtract, multiply, divide.
+    - Herman Hollerith’s punch cards (1880s).
+    - Charles Babbage (1822) – Difference Engine and Analytical Engine. Known as the "Father of Modern Computers".
+
+## Generations of Computers
+1. **First Generation (1940s–1950s)**
+   - Based on vacuum tubes.
+   - Very large in size (occupied whole rooms).
+   - No operating systems, machine-specific languages.
+   - Examples: ENIAC, EDVAC, UNIVAC.
+2. **Second Generation (1950s–1960s)**
+   - Based on transistors (smaller, faster, more reliable, energy efficient).
+   - Supported scientific and business applications.
+   - Programming languages introduced: FORTRAN (1957), COBOL (1959).
+   - Example: CDC 6600 (first supercomputer).
+3. **Third Generation (1960s–1970s)**
+   - Used Integrated Circuits (ICs).
+   - Faster, smaller, cheaper, more reliable.
+   - Introduced monitors, keyboards, networking concepts.
+   - Programming language BASIC developed.
+4. **Fourth Generation (1970s–1980s)**
+   - Very Large Scale Integration (VLSI), microprocessors (e.g., Intel 4004).
+   - Smaller, cheaper, more powerful.
+   - GUI (Graphical User Interface), advanced I/O devices, software expansion.
+5. **Fifth Generation (1980s–present)**
+   - Super Large Scale Integration (SLSI), artificial intelligence, robotics.
+   - Includes smartphones, smart TVs, handheld devices.
+   - Features: voice recognition (Siri, Cortana), huge storage, multiple CPUs.
+
+## Benefits of Computers
+- Large storage and reduced waste (paperless environment).
+- Sorting, sharing, organizing, and quick searching of information.
+- Better understanding of data (business analytics, Excel).
+- Increased productivity (cloud computing, remote work).
+- Connectivity (internet, decision support systems, social networks).
+- Source of income (ads, content creation).
+- Time-saving (fast execution of tasks).
+- Enhanced learning (MOOCs, e-learning).
+
+---
+End of Lecture Notes
