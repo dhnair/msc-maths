@@ -1,0 +1,41 @@
+# ------------------------------
+# OS-specific junk
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Obsidian transient workspace state
+# (ignore so Git doesn’t commit every time you switch notes)
+# ------------------------------
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# ------------------------------
+# Large / non-text files
+# (keep vault text-based; add exceptions if needed)
+# ------------------------------
+*.pdf
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+
+# ------------------------------
+# LaTeX build artifacts
+# ------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
