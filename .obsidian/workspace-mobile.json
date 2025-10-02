@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Test.md",
+                "file": "term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test"
+              "title": "ecap145_u01l01_full_transcript"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Test.md",
+            "file": "term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -156,6 +156,7 @@
   },
   "active": "28697042a133b3de",
   "lastOpenFiles": [
-    "Test.md"
+    "Test.md",
+    "term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md"
   ]
 }
