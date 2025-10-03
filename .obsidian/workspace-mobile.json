@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
-                "mode": "source",
-                "source": false
+                "file": "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "ecap145_u01l01_full_transcript"
+              "title": "emth515_u01t01_transcript"
             }
           }
         ]
@@ -98,9 +98,9 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
+            "file": "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
             "collapseAll": false,
-            "extraContext": false,
+            "extraContext": true,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
@@ -156,7 +156,17 @@
   },
   "active": "28697042a133b3de",
   "lastOpenFiles": [
-    "Test.md",
-    "term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md"
+    "files.txt",
+    "folder_structure.txt",
+    "resources/references/intervals_and_partitions.md",
+    "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
+    "reference",
+    "term1/real_analysis_i/notes/emth515_u01t01_study_notes.md",
+    "term1/real_analysis_i/transcripts/emth515_u01t01_expanded_transcript_obsidian.md",
+    "term1/real_analysis_i/transcripts/emth515_u01t01_expanded_transcript.md",
+    "term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md",
+    "term1/real_analysis_i/transcripts/emth515_u01t01_full_transcript.md",
+    "term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
+    "Test.md"
   ]
 }

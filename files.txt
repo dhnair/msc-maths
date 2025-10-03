@@ -1,0 +1,9 @@
+./resources/references/intervals_and_partitions.md
+./term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md
+./term1/real_analysis_i/notes/emth515_u01t01_study_notes.md
+./term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md
+./term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md
+./.trash/Test.md
+./.trash/emth515_u01t01_full_transcript.md
+./.trash/emth515_u01t01_expanded_transcript.md
+./.trash/emth515_u01t01_expanded_transcript_obsidian.md
