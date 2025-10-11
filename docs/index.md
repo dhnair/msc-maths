@@ -7,12 +7,6 @@ title: "M.Sc Mathematics Notes"
 Welcome to **Deepak Nair’s MSc Mathematics Knowledge Vault**,  
 a structured collection of **transcripts, study notes, and references** for the entire program.
 
-This repository is designed to be:
-- **Pedagogical** – Each transcript is self-contained and explanatory.  
-- **Linked** – Concepts cross-reference across subjects.  
-- **Obsidian-compatible** – Notes are Markdown + LaTeX ready.  
-- **Publishable** – Rendered using MkDocs Material for web access.
-
 ---
 
 ## 📚 About This Project
@@ -53,26 +47,6 @@ Every unit includes:
 
 ---
 
-## 🧩 Technical Setup
-
-This site is built with:
-- **[MkDocs Material](https://squidfunk.github.io/mkdocs-material/)** for static site generation  
-- **MathJax** for LaTeX support  
-- **Pymdown Extensions** for Markdown enhancement  
-- **GitHub Pages** for hosting  
-
-To preview locally:
-```bash
-mkdocs serve
-```
-
-To publish:
-```bash
-mkdocs gh-deploy
-```
-
----
-
 ## ✨ Vision
 > “Mathematics is not about numbers, equations, computations, or algorithms:  
 > it’s about understanding.”  
@@ -89,4 +63,3 @@ These notes aim to promote that understanding — grounded, structured, and open
 <em>“Turning notes into a living mathematical library.”</em><br>
 <small>Last updated: {{ git_revision_date_localized }}</small>
 </p>
-

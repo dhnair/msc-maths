@@ -84,6 +84,7 @@ plugins:
   - htmlproofer:
       ignore_urls:
         - https://linkedin.com/in/dhnair
+  - glightbox
 
 # Global extra metadata
 extra:

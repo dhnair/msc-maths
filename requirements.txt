@@ -1,29 +1,8 @@
-# =======================================
-# M.Sc Mathematics Site - MkDocs Packages
-# =======================================
-
-# Core site builder
-mkdocs>=1.6.0
-
-# Beautiful Material Design theme
-mkdocs-material>=9.5.0
-
-# Markdown enhancements (tables, LaTeX, details)
-pymdown-extensions>=10.7
-
-# Optional but useful:
-# Checks links before deployment
-mkdocs-htmlproofer-plugin>=0.11.0
-
-# For MathJax and syntax highlighting
 markdown>=3.6
-
-# Performance boost on rebuild
-mkdocs-minify-plugin>=0.7.0
-
-# For revision dates
 mkdocs-git-revision-date-localized-plugin>=1.2.0
-
-# Collapsible - mobile friendly
-# mkdocs-section-index-plugin>=0.6.0
-
+mkdocs-htmlproofer-plugin>=0.11.0
+mkdocs-material>=9.5.0
+mkdocs-minify-plugin>=0.7.0
+mkdocs>=1.6.0
+pymdown-extensions>=10.7
+mkdocs-glightbox
