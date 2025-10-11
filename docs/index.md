@@ -82,4 +82,11 @@ These notes aim to promote that understanding — grounded, structured, and open
 
 ---
 
-_Last updated: {{ git_revision_date_localized }}_
+<p align="center">
+<strong>Deepak Nair</strong><br>
+📍 M.Sc Mathematics (2025)<br>
+<a href="https://linkedin.com/in/dhnair" target="_blank">LinkedIn</a><br>
+<em>“Turning notes into a living mathematical library.”</em><br>
+<small>Last updated: {{ git_revision_date_localized }}</small>
+</p>
+
