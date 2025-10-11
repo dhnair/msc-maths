@@ -7,9 +7,6 @@
 
 # Obsidian workspace and cache
 .obsidian/
-.obsidian-workspace.json
-.obsidian-backup*
-.obsidian-temp*
 
 # Python virtual environments
 venv/
