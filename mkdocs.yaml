@@ -1,8 +1,8 @@
 site_name: "M.Sc Mathematics Notes"
 site_description: "Transcripts and Study Notes for M.Sc Mathematics (2025 Edition)"
 site_author: "Deepak Nair"
-site_url: "https://dhnair.github.io/msc-math/"
-repo_url: "https://github.com/dhnair/msc-math"
+site_url: "https://dhnair.github.io/msc-maths/"
+repo_url: "https://github.com/dhnair/msc-maths"
 theme:
   name: material
   features:
