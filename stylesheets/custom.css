@@ -1,0 +1,85 @@
+/* -----------------------------------------------
+   M.Sc Mathematics Notes – Custom Stylesheet
+   Compatible with MkDocs Material + MathJax
+   ----------------------------------------------- */
+
+/* Body & typography */
+:root {
+  --md-text-font: "Inter", "Segoe UI", sans-serif;
+  --md-code-font: "JetBrains Mono", monospace;
+}
+
+.md-content {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Table adjustments */
+.md-typeset table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.md-typeset table th,
+.md-typeset table td {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  padding: 0.5em 0.8em;
+}
+.md-typeset table th {
+  background: var(--md-default-bg-color--lighter);
+  font-weight: 600;
+}
+
+/* Code blocks */
+.md-typeset code,
+.md-typeset pre {
+  font-family: var(--md-code-font);
+  font-size: 0.9rem;
+}
+
+/* MathJax alignment and spacing */
+mjx-container[jax="CHTML"] {
+  text-align: center;
+  margin: 0.8em 0;
+}
+
+mjx-container[display="true"] {
+  display: block;
+  margin: 1em auto;
+}
+
+/* Inline math size harmonization */
+mjx-container[jax="CHTML"] > mjx-math {
+  font-size: 1em;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1em;
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+  background-color: var(--md-default-bg-color--lighter);
+}
+
+/* Dark mode math contrast fix */
+[data-md-color-scheme="slate"] mjx-container[jax="CHTML"] {
+  filter: brightness(1.15);
+}
+
+/* Tag / note callouts (for think/recall cues) */
+em.think, em.note, em.recall {
+  display: inline-block;
+  background-color: var(--md-accent-fg-color--transparent);
+  border-radius: 0.4em;
+  padding: 0.1em 0.4em;
+  font-size: 0.85rem;
+  font-style: normal;
+  opacity: 0.9;
+}
