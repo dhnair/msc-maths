@@ -8,7 +8,7 @@ theme:
   name: material
   features:
     - navigation.expand
-    - navigation.tabs
+    - navigation.sections
     - navigation.instant
     - navigation.tracking
     - navigation.top
