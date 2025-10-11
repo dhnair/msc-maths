@@ -24,3 +24,7 @@ mkdocs-minify-plugin>=0.7.0
 # For revision dates
 mkdocs-git-revision-date-localized-plugin>=1.2.0
 
+# Collapsible - mobile friendly
+mkdocs-collapse-plugin>=1.0.0
+
+

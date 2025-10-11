@@ -3,17 +3,18 @@ site_description: "Transcripts and Study Notes for M.Sc Mathematics (2025 Editio
 site_author: "Deepak Nair"
 site_url: "https://dhnair.github.io/msc-maths/"
 repo_url: "https://github.com/dhnair/msc-maths"
+
 theme:
   name: material
   features:
     - navigation.expand
-    - navigation.top
     - navigation.tabs
-    - content.code.annotate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - header.autohide
+    - content.code.copy
     - content.tabs.link
-    - toc.integrate
-    - search.suggest
-    - search.highlight
     - content.action.edit
   palette:
     - scheme: default
@@ -28,7 +29,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-# Markdown extensions
+# Markdown and math extensions
 markdown_extensions:
   - admonition
   - toc:
@@ -41,6 +42,7 @@ markdown_extensions:
   - attr_list
   - tables
   - footnotes
+  - md_in_html
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -49,6 +51,7 @@ extra_javascript:
 extra_css:
   - stylesheets/custom.css
 
+# Navigation structure
 nav:
   - Home: index.md
   - 📚 Resources:
@@ -71,10 +74,22 @@ nav:
           - Transcript: term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md
           - Study Notes: term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md
 
+# Plugins
 plugins:
   - search
   - tags
   - git-revision-date-localized:
       fallback_to_build_date: true
       enable_creation_date: false
+  - htmlproofer
+  - collapse
 
+# Global extra metadata
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/dhnair
+      name: LinkedIn
+
+# Site build behavior
+strict: true
