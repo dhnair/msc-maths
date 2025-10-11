@@ -47,3 +47,6 @@ mkdocs_build/
 # Local test server cache
 /.cache/
 .cache/
+
+# Node modules
+node_modules/  
