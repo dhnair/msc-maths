@@ -81,7 +81,9 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       enable_creation_date: false
-  - htmlproofer
+  - htmlproofer:
+      ignore_urls:
+        - https://linkedin.com/in/dhnair
 
 # Global extra metadata
 extra:

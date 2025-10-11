@@ -236,7 +236,7 @@ Let $\mathbb{Z}_n = \{0,1,2,\dots,n-1\}$ with operation addition modulo $n$. The
 - Bhattacharya, Jain & Nagpal, *Basic Abstract Algebra* (Cambridge University Press)  
 - I.N. Herstein, *Topics in Algebra* (Wiley)  
 - Dummit & Foote, *Abstract Algebra* (Wiley)  
-- NPTEL Online Course: [Abstract Algebra](https://nptel.ac.in/courses/111/105/111105112/)
+- NPTEL Online Course: [Abstract Algebra](https://nptel.ac.in/courses/111102009)
 
 ---
 
