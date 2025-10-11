@@ -1,7 +1,7 @@
 # 🎓 M.Sc Mathematics Notes
 
 [![Built with MkDocs](https://img.shields.io/badge/Built%20with-MkDocs%20Material-blue)](https://squidfunk.github.io/mkdocs-material/)
-[![View Site](https://img.shields.io/badge/View-Site-brightgreen)](https://dhnair.github.io/msc-math/)
+[![View Site](https://img.shields.io/badge/View-Site-brightgreen)](https://dhnair.github.io/msc-maths/)
 [![License](https://img.shields.io/badge/License-Educational-lightgrey)]()
 
 Welcome to **M.Sc Mathematics Notes**, a structured, open repository containing detailed **transcripts**, **study notes**, and **reference materials** created and maintained by **Deepak Nair**.
@@ -27,7 +27,7 @@ It is designed to provide pedagogical, math-rich, LaTeX-compatible notes for the
 ## 🧮 Structure
 
 ```
-msc-math/
+msc-maths/
 ├── mkdocs.yml
 ├── index.md
 ├── requirements.txt
@@ -92,7 +92,7 @@ You can trigger a manual build anytime under
 **GitHub → Actions → Deploy MkDocs site to GitHub Pages → Run workflow**
 
 Your live site:  
-👉 [https://dhnair.github.io/msc-math/](https://dhnair.github.io/msc-math/)
+👉 [https://dhnair.github.io/msc-maths/](https://dhnair.github.io/msc-maths/)
 
 ---
 
