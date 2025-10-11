@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86825f37c7e4ba94",
+        "id": "400e22c5e67c9e96",
         "type": "tabs",
         "children": [
           {
-            "id": "28697042a133b3de",
+            "id": "e2ce472e58cb71e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
+                "file": "term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "emth515_u01t01_transcript"
+              "title": "emth516_u01_study_notes"
             }
           }
         ]
@@ -154,12 +154,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "28697042a133b3de",
+  "active": "e2ce472e58cb71e1",
   "lastOpenFiles": [
+    "term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md",
+    "term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md",
+    "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
+    "resources/references/math_symbols_cheat_sheet.md",
+    "resources/references/math_symbols_glossary.md",
     "files.txt",
     "folder_structure.txt",
     "resources/references/intervals_and_partitions.md",
-    "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
     "reference",
     "term1/real_analysis_i/notes/emth515_u01t01_study_notes.md",
     "term1/real_analysis_i/transcripts/emth515_u01t01_expanded_transcript_obsidian.md",
