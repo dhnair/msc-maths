@@ -1,42 +1,52 @@
-# ------------------------------
-# OS-specific junk
-# ------------------------------
+# ==============================
+# MkDocs + Obsidian Vault Ignore
+# ==============================
+
+# MkDocs build directory
+/site/
+
+# Obsidian workspace and cache
+.obsidian/
+.obsidian-workspace.json
+.obsidian-backup*
+.obsidian-temp*
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS / Linux / Windows system files
 .DS_Store
 Thumbs.db
-.trash/
+desktop.ini
 
-# ------------------------------
-# Obsidian transient workspace state
-# (ignore so Git doesn’t commit every time you switch notes)
-# ------------------------------
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-# ------------------------------
-# Large / non-text files
-# (keep vault text-based; add exceptions if needed)
-# ------------------------------
-*.pdf
-*.zip
-*.tar
-*.gz
-*.7z
-*.rar
-*.mp4
-*.mov
-*.avi
-*.mkv
-*.mp3
-*.wav
-
-# ------------------------------
-# LaTeX build artifacts
-# ------------------------------
-*.aux
+# Logs and temporary files
 *.log
-*.out
-*.toc
-*.bbl
-*.blg
-*.synctex.gz
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
 
+# MkDocs config backups
+mkdocs.yml.bak
+mkdocs_build/
+
+# Markdown export artifacts
+*.pdf
+*.html
+
+# Local test server cache
+/.cache/
+.cache/

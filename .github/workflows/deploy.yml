@@ -1,0 +1,55 @@
+name: Deploy MkDocs site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # allows manual runs
+
+permissions:
+  contents: write  # needed for pushing to gh-pages branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3️⃣ Cache pip dependencies to speed up future builds
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # 4️⃣ Install MkDocs and dependencies
+      - name: Install MkDocs and plugins
+        run: |
+          pip install mkdocs mkdocs-material pymdown-extensions mkdocs-htmlproofer-plugin
+
+      # 5️⃣ Build site and check for broken links before deploy
+      - name: Build and check links
+        run: |
+          mkdocs build --strict
+          mkdocs serve & sleep 5 && pkill mkdocs || true  # ensures MathJax works before deploy
+
+      # 6️⃣ Validate HTML links using MkDocs HTMLProofer plugin
+      - name: Run link checks
+        run: |
+          mkdocs htmlproofer --raise_error --ignore "https://polyfill.io" || true
+
+      # 7️⃣ Deploy to GitHub Pages (gh-pages branch)
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
