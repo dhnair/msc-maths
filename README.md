@@ -125,6 +125,6 @@ For academic integrity, please do not redistribute institutional materials verba
 ## ✨ Author
 
 **Deepak Nair**  
-📍 M.Sc Mathematics (2025)  
+📍 M.Sc Mathematics 
 🔗 [LinkedIn Profile](https://linkedin.com/in/dhnair)  
 🧮 “Turning notes into a living mathematical library.”

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md",
+                "file": "index.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "emth516_u01_study_notes"
+              "title": "index"
             }
           }
         ]
@@ -156,15 +156,35 @@
   },
   "active": "e2ce472e58cb71e1",
   "lastOpenFiles": [
-    "term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md",
+    "README.md",
     "term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md",
+    "requirements.txt",
+    "docs/term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md",
+    "docs/term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md",
+    "docs/term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md",
+    "docs/term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md",
+    "docs/term1/real_analysis_i/notes/emth515_u01t01_study_notes.md",
+    "docs/term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
+    "docs/term4/dissertation/notes",
+    "docs/term4/machine_learning/notes",
+    "docs/term4/programming_in_python/notes",
+    "docs/term4/functional_analysis/notes",
+    "docs/term4/mechanics/notes",
+    "docs/term3/term_paper/notes",
+    "docs/term3/advance_data_visualisation/notes",
+    "docs/term3/data_science_toolbox/notes",
+    "docs/term3/topology/notes",
+    "docs/resources/rules/transcript_template.md",
+    "docs/resources/rules/transcript_notes_formatting_guidelines.md",
+    "docs/resources/references/math_symbols_cheat_sheet.md",
+    "docs/resources/references/math_symbols_glossary.md",
+    "docs/resources/references/intervals_and_partitions.md",
+    "index.md",
+    "term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md",
     "term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md",
     "resources/references/math_symbols_cheat_sheet.md",
     "resources/references/math_symbols_glossary.md",
-    "files.txt",
-    "folder_structure.txt",
     "resources/references/intervals_and_partitions.md",
-    "reference",
     "term1/real_analysis_i/notes/emth515_u01t01_study_notes.md",
     "term1/real_analysis_i/transcripts/emth515_u01t01_expanded_transcript_obsidian.md",
     "term1/real_analysis_i/transcripts/emth515_u01t01_expanded_transcript.md",
