@@ -74,3 +74,7 @@ nav:
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enable_creation_date: false
+
