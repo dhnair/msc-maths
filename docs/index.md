@@ -31,25 +31,25 @@ Every unit includes:
 
 ### Term 1
 - **Real Analysis I**  
-  → [[term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md|Transcript]]  
-  → [[term1/real_analysis_i/notes/emth515_u01t01_study_notes.md|Study Notes]]
+  → [Transcript](term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md)  
+  → [Study Notes](term1/real_analysis_i/notes/emth515_u01t01_study_notes.md)
 
 - **Advanced Abstract Algebra I**  
-  → [[term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md|Transcript]]  
-  → [[term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md|Study Notes]]
+  → [Transcript](term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md)  
+  → [Study Notes](term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md)
 
 - **Fundamentals of Information Technology**  
-  → [[term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md|Transcript]]  
-  → [[term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md|Study Notes]]
+  → [Transcript](term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md)  
+  → [Study Notes](term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md)
 
 ---
 
 ## 📘 References & Rules
 
-- [[resources/references/math_symbols_glossary.md|Mathematical Symbols Glossary]]  
-- [[resources/references/intervals_and_partitions.md|Intervals and Partitions Reference]]  
-- [[resources/rules/transcript_notes_formatting_guidelines.md|Formatting Guidelines]]  
-- [[resources/rules/transcript_template.md|Transcript Template]]
+- [Mathematical Symbols Glossary](resources/references/math_symbols_glossary.md)  
+- [Intervals and Partitions Reference](resources/references/intervals_and_partitions.md)  
+- [Formatting Guidelines](resources/rules/transcript_notes_formatting_guidelines.md)  
+- [Transcript Template](resources/rules/transcript_template.md)
 
 ---
 
@@ -64,3 +64,22 @@ This site is built with:
 To preview locally:
 ```bash
 mkdocs serve
+```
+
+To publish:
+```bash
+mkdocs gh-deploy
+```
+
+---
+
+## ✨ Vision
+> “Mathematics is not about numbers, equations, computations, or algorithms:  
+> it’s about understanding.”  
+> — William Paul Thurston
+
+These notes aim to promote that understanding — grounded, structured, and open.
+
+---
+
+_Last updated: {{ git_revision_date_localized }}_
