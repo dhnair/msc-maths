@@ -6,11 +6,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="M.Sc Mathematics Notes - Transcripts, Study Notes, and References">
+      description="Structured transcripts and study notes for the M.Sc Mathematics program.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">M.Sc Mathematics Notes</h1>
@@ -20,58 +20,25 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
-              View Notes → 
+              to="/term1/">
+              Start Reading →
             </Link>
           </div>
         </div>
       </header>
+
       <main>
         <section className={styles.features}>
           <div className="container">
             <div className="row">
-              <div className="col col--4">
-                <div className="text--center">
-                  <h3>📘 About This Project</h3>
-                </div>
+              <div className="col col--12 text--center">
+                <h3>📘 About This Project</h3>
                 <p>
-                  A structured, version-controlled collection of MSc Mathematics
-                  <strong> transcripts, study notes, and references</strong>,
-                  organized term-wise and unit-wise.
+                  A structured, version-controlled collection of{' '}
+                  <strong>M.Sc Mathematics transcripts, study notes, and reference materials</strong>, 
+                  organized term-wise and course-wise. Built as a living academic record —
+                  open, evolving, and easy to explore.
                 </p>
-              </div>
-
-              <div className="col col--4">
-                <div className="text--center">
-                  <h3>🧮 Core Focus</h3>
-                </div>
-                <p>
-                  Built around the <em>M.Sc Mathematics curriculum</em> — blending
-                  conceptual depth with concise, exam-oriented revision notes.
-                </p>
-              </div>
-
-              <div className="col col--4">
-                <div className="text--center">
-                  <h3>🔗 Quick Access</h3>
-                </div>
-                <ul>
-                  <li>
-                    <Link to="/docs/term1/real_analysis_i/notes/emth515_u01t01_study_notes">
-                      Real Analysis I
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/docs/term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes">
-                      Advanced Abstract Algebra I
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/docs/resources/references/math_symbols_glossary">
-                      Math Symbols Glossary
-                    </Link>
-                  </li>
-                </ul>
               </div>
             </div>
 
@@ -79,11 +46,12 @@ export default function Home() {
               <div className="col col--12 text--center">
                 <blockquote>
                   <p>
-                    “Mathematics is not about numbers, equations, computations, or
-                    algorithms — it’s about understanding.”
+                    “Mathematics is not about numbers, equations, computations, or algorithms — 
+                    it’s about understanding.”
                   </p>
                   <footer>— William Paul Thurston</footer>
                 </blockquote>
+
                 <p>
                   <strong>Deepak Nair</strong><br />
                   📍 M.Sc Mathematics (2025)<br />
@@ -92,8 +60,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer">
                     LinkedIn
-                  </a>
-                  <br />
+                  </a><br />
                   <em>Turning notes into a living mathematical library.</em>
                 </p>
               </div>
