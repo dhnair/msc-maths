@@ -20,7 +20,7 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/term1/">
+              to="//">
               Start Reading →
             </Link>
           </div>
