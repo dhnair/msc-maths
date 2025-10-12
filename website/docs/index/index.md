@@ -4,12 +4,6 @@ title: "Index"
 
 # 🧮 M.Sc Mathematics — Index
 
-Welcome to **Deepak Nair’s M.Sc Mathematics Notes**,  
-a structured, version-controlled archive of **transcripts, study notes, and references**  
-organized by term and course.
-
-This collection currently includes materials from **Term 1**, with more terms to follow.
-
 ---
 
 ## 📚 Term 1
