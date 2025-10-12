@@ -5,7 +5,7 @@ sidebar_label: "Index"
 slug: "/"
 ---
 
-# 🧮 M.Sc Mathematics — Index
+# 🧮 Index
 
 ---
 
