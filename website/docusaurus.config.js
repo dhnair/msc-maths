@@ -31,10 +31,7 @@ export default {
   themeConfig: {
     navbar: {
       title: 'M.Sc Mathematics',
-      items: [
-        {to: '/docs/intro', label: 'Home', position: 'left'},
-        {href: 'https://linkedin.com/in/dhnair', label: 'LinkedIn', position: 'right'},
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',

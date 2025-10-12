@@ -1,9 +1,14 @@
 ---
-title: "EMTH515 - U01T01 Notes"
-course: "EMTH515 - Real Analysis I"
-lecture: "U01T01 - Riemann–Stieltjes Integral (Definition & Existence)"
-type: "Notes"
-tags: [MScMathematics, RealAnalysis, EMTH515, Revision, QuickNotes]
+title: EMTH515 - U01T01 Study Notes
+course: EMTH515 - Real Analysis I
+lecture: U01T01 - Riemann–Stieltjes Integral (Definition & Existence)
+type: StudyNotes
+tags:
+  - MScMathematics
+  - RealAnalysis
+  - EMTH515
+  - Revision
+  - QuickNotes
 ---
 
 # 🧮 Quick Revision Notes: Riemann–Stieltjes Integral
