@@ -1,5 +1,8 @@
 ---
 title: "Index"
+sidebar_position: 0
+sidebar_label: "Index"
+slug: "/"
 ---
 
 # 🧮 M.Sc Mathematics — Index
