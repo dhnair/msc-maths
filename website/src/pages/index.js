@@ -13,14 +13,14 @@ export default function Home() {
       description="Structured transcripts and study notes for the M.Sc Mathematics program.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">M.Sc Mathematics Notes</h1>
+          <h1 className="hero__title">M.Sc Mathematics</h1>
           <p className="hero__subtitle">
             Transcripts · Study Notes · References
           </p>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="//">
+              to="/">
               Start Reading →
             </Link>
           </div>
