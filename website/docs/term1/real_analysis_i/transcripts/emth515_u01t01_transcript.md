@@ -1,5 +1,5 @@
 ---
-title: "EMTH515 - U01T01 Expanded Transcript"
+title: "EMTH515 - U01T01 Transcript"
 course: "EMTH515 - Real Analysis I"
 lecture: "U01T01 - Riemann-Stieltjes Integral (Definition & Existence)"
 type: "Transcript"
