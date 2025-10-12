@@ -1,47 +1,64 @@
 ---
-sidebar_position: 1
+title: "M.Sc Mathematics Notes"
 ---
 
-# Tutorial Intro
+# 🧮 M.Sc Mathematics – Notes and Transcripts
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **Deepak Nair’s MSc Mathematics Knowledge Vault**,  
+a structured collection of **transcripts, study notes, and references** for the entire program.
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## 📚 About This Project
+These notes are based on the M.Sc Mathematics curriculum and organized term-wise, covering both **core** and **applied** branches of mathematics.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Every unit includes:
+- **Full Transcripts** – Detailed derivations, proofs, and examples.  
+- **Quick Study Notes** – Concise revision-oriented summaries.  
+- **Reference Sheets** – Common symbols, theorems, and formatting standards.  
 
-### What you'll need
+> _Goal: To transform learning into a living, open, version-controlled knowledge base._
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## 📖 Structure Overview
 
-Generate a new Docusaurus site using the **classic template**.
+### Term 1
+- **Real Analysis I**  
+  → [Transcript](term1/real_analysis_i/transcripts/emth515_u01t01_transcript.md)  
+  → [Study Notes](term1/real_analysis_i/notes/emth515_u01t01_study_notes.md)
 
-The classic template will automatically be added to your project after you run the command:
+- **Advanced Abstract Algebra I**  
+  → [Transcript](term1/advanced_abstract_algebra_i/transcripts/emth516_u01_transcript.md)  
+  → [Study Notes](term1/advanced_abstract_algebra_i/notes/emth516_u01_study_notes.md)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Fundamentals of Information Technology**  
+  → [Transcript](term1/fundamentals_of_information_technology/transcripts/ecap145_u01l01_full_transcript.md)  
+  → [Study Notes](term1/fundamentals_of_information_technology/notes/ecap145_u01l01_study_notes.md)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 📘 References & Rules
 
-## Start your site
+- [Mathematical Symbols Glossary](resources/references/math_symbols_glossary.md)  
+- [Intervals and Partitions Reference](resources/references/intervals_and_partitions.md)  
+- [Formatting Guidelines](resources/rules/transcript_notes_formatting_guidelines.md)  
+- [Transcript Template](resources/rules/transcript_template.md)
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
+## ✨ Vision
+> “Mathematics is not about numbers, equations, computations, or algorithms:  
+> it’s about understanding.”  
+> — William Paul Thurston
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+These notes aim to promote that understanding — grounded, structured, and open.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+---
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<p align="center">
+  <strong>Deepak Nair</strong><br />
+  📍 M.Sc Mathematics (2025)<br />
+  <a href="https://linkedin.com/in/dhnair" target="_blank">LinkedIn</a><br />
+  <em>“Turning notes into a living mathematical library.”</em>
+</p>

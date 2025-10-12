@@ -1,58 +1,43 @@
-name: Deploy MkDocs site to GitHub Pages
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:  # allows manual runs
+  workflow_dispatch:
 
 permissions:
-  contents: write  # needed for pushing to gh-pages branch
+  contents: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-            fetch-depth: 0
+          fetch-depth: 0
 
-      # 2️⃣ Set up Python
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
         with:
-          python-version: '3.x'
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
 
-      # 3️⃣ Cache pip dependencies to speed up future builds
-      - name: Cache pip dependencies
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      # 4️⃣ Install MkDocs and dependencies
-      - name: Install MkDocs and plugins
+      - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          pip freeze | grep -q mkdocs
+          cd website
+          npm ci
 
-      # 5️⃣ Build site and check for broken links before deploy
-      - name: Build and check links
+      - name: Build site
         run: |
-          mkdocs build --strict
-          mkdocs serve & sleep 5 && pkill mkdocs || true  # ensures MathJax works before deploy
+          cd website
+          npm run build
 
-      # 6️⃣ Validate HTML links using MkDocs HTMLProofer plugin
-      - name: Run link checks
-        run: |
-          mkdocs htmlproofer --raise_error --ignore "https://polyfill.io" || true
-
-      # 7️⃣ Deploy to GitHub Pages (gh-pages branch)
       - name: Deploy to GitHub Pages
-        run: |
-          mkdocs gh-deploy --force
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./website/build
