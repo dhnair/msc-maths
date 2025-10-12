@@ -17,7 +17,7 @@ export default function Home() {
       {/* Hero Section */}
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">M.Sc Mathematics Notes</h1>
+          <h1 className="hero__title">M.Sc Mathematics</h1>
           <p className="hero__subtitle">
             Transcripts · Study Notes · References
           </p>
