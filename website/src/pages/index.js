@@ -24,7 +24,7 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to={useBaseUrl('/docs/index/')}>
+              to={useBaseUrl('/docs/')}>
               Start Reading →
             </Link>
           </div>
