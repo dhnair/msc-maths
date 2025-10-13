@@ -1,9 +1,10 @@
 ---
-title: "COURSECODE - Unit Title (Transcript)"
-course: "Course Name"
-lecture: "Unit and Lecture Title"
-type: "Transcript"
-tags: [MScMathematics, Transcript, Notes]
+title: "Lecture Title - [Transcript | Notes]"
+course: "Course Code - Course Name"
+unit: "Unit Title"
+lecture: "Lecture Title"
+type: "Transcript | Notes "
+tags: [MScMathematics, Transcript, /<Actual Course Code>/, /<Course Name Hint>/]
 ---
 
 # COURSECODE - Unit X, Lecture Y

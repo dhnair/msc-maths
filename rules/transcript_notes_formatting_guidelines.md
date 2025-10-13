@@ -78,11 +78,12 @@ Each file includes metadata:
 
 ```yaml
 ---
-title: "Course Code - Unit Title"
-course: "Course Name"
-lecture: "Unit and Lecture Title"
-type: "Transcript | StudyNotes | ExpandedTranscript"
-tags: [MScMathematics, IT, CS, DS, ML, Transcript, Notes]
+title: "Lecture Title - [Transcript | Notes]"
+course: "Course Code Course Name"
+unit: "Unit Title"
+lecture: "Lecture Title"
+type: "Transcript | Notes "
+tags: [MScMathematics, IT, CS, DS, ML, Transcript, Notes, ]
 ---
 ```
 
@@ -101,10 +102,11 @@ Each transcript follows the same structure:
 ---
 
 ## 10. File Naming Convention
-- Snake case, with course code + unit number:
-  - `emth515_u01t01_full_transcript.md`
-  - `emth515_u01t01_study_notes.md`
-
+- Mixed title case, with COURSECODE.unit number.lecture number.Script Type:
+  - `EMTH515.1.1.Transcript.md`
+  - `EMTH515.1.1.Notes.md`
+  - `ECAP145.7.3.Transcript.md`
+  - `ECAP145.7.4.Notes.md`
 ---
 
 ## 11. Scope
