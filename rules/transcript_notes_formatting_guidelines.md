@@ -73,18 +73,60 @@ Steps of proof...
 
 ---
 
-## 8. Metadata (YAML Frontmatter)
-Each file includes metadata:
+## 8. Metadata and Title
+### 8.1 Each file includes metadata (YAML Frontmatter):
 
 ```yaml
 ---
-title: "Lecture Title - [Transcript | Notes]"
-course: "Course Code Course Name"
-unit: "Unit Title"
-lecture: "Lecture Title"
-type: "Transcript | Notes "
-tags: [MScMathematics, IT, CS, DS, ML, Transcript, Notes, ]
+title: "Transcript - Definition of Group and Subgroup"
+type: "Transcript"
+course: "EMTH516 - ADVANCED ABSTRACT ALGEBRA-I"
+unit: "01 - Review of Groups"
+lecture: "01 - Definition of Group and Subgroup"
+file: emth516_u01_1.1_a_transcript.md
+tags:
+  - MScMathematics
+  - EMTH516
+  - Advanced Abstract Algebra
+  - Algebra
+  - Group
+  - Subgroup
+  - Transcript
 ---
+```
+
+or
+
+```yaml
+---
+title: "Notes - Definition of Group and Subgroup"
+type: "Notes"
+course: "EMTH516 - ADVANCED ABSTRACT ALGEBRA-I"
+unit: "01 - Review of Groups"
+lecture: "01 - Definition of Group and Subgroup"
+file: emth516_u01_1.1_b_notes.md
+tags:
+  - MScMathematics
+  - EMTH516
+  - Advanced Abstract Algebra
+  - Algebra
+  - Group
+  - Subgroup
+  - Notes
+---
+```
+
+### 8.2 Each file includes title (Markdown title):
+
+```md
+# Definition of Group and Subgroup (*Transcript*)
+```
+
+or
+
+```md
+# Definition of Group and Subgroup (*Notes*)
+
 ```
 
 ---
@@ -102,11 +144,16 @@ Each transcript follows the same structure:
 ---
 
 ## 10. File Naming Convention
-- Mixed title case, with COURSECODE.unit number.lecture number.Script Type:
-  - `EMTH515.1.1.Transcript.md`
-  - `EMTH515.1.1.Notes.md`
-  - `ECAP145.7.3.Transcript.md`
-  - `ECAP145.7.4.Notes.md`
+ 
+ File name follows a naming convention in lower case
+  - <course_code>_<unit>_<lecture>_a_transcript.md
+  - <course_code>_<unit>_<lecture>_b_notes.md
+
+_a_ and _b_ in file name is used for auto sorting in docusarus sidebar - Transcript first, Notes second.
+
+ Example:
+  - `ecap145_u01_1.1_a_transcript.md`
+  - `ecap145_u01_1.1_b_notes.md`
 ---
 
 ## 11. Scope

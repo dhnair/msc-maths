@@ -1,7 +1,11 @@
 ---
 title: "Glossary of Mathematical Symbols"
 type: "Reference"
-tags: [MScMathematics, Symbols, Glossary, Reference]
+tags:
+  - MScMathematics
+  - Symbols
+  - Glossary
+  - Reference
 ---
 
 # 📘 Glossary of Mathematical Symbols

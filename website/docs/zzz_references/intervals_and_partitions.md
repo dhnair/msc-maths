@@ -3,10 +3,13 @@ title: "Intervals and Partitions"
 course: "Preliminaries for Real Analysis"
 lecture: "Intervals and Partitions of Intervals"
 type: "Transcript"
-tags: [MScMathematics, RealAnalysis, Transcript, Notes]
+tags:
+  - MScMathematics
+  - RealAnalysis
+  - References
 ---
 
-# Transcript: Intervals and Partitions in Real Analysis
+# Intervals and Partitions in Real Analysis
 
 ---
 

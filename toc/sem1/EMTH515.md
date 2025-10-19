@@ -1,6 +1,6 @@
 # EMTH515 REAL ANALYSIS-I
 
-## 1: The Riemann - Stieltjes integral 
+## 1: The Riemann - Stieltjes integral
 ### 1.1 Definition and Existence of the Integral
 ### 1.2 The Riemann -Stieltjes Integral
 

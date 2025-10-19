@@ -4,36 +4,28 @@ sidebar_position: 0
 sidebar_label: "Index"
 slug: "/"
 ---
+# 📚 SEMESTER 1
 
-# 🧮 Index
-
----
-
-## 📚 Term 1
-
-### EMTH 515 — Real Analysis I
-- [U01 – Riemann–Stieltjes Integral (Transcript)](term1/emth515_real_analysis_i/u01_placeholder_topic/transcript.md)
-- [U01 – Riemann–Stieltjes Integral (Notes)](term1/emth515_real_analysis_i/u01_placeholder_topic/notes.md)
+## EMTH 515 — Real Analysis I
+### 1: The Riemann - Stieltjes integral
+#### 1.1 Definition and Existence of the Integral  [Transcript](sem1/emth515/u01/1.1/emth515_u01_1.1_a_transcript.md) | [Notes](sem1/emth515/u01/1.1/emth515_u01_1.1_b_notes.md)
 
 ---
 
-### EMTH 516 — Advanced Abstract Algebra I
-- [U01 – Group Axioms (Transcript)](term1/emth516_advanced_abstract_algebra_i/u01_placeholder_topic/transcript.md)
-- [U01 – Group Axioms (Notes)](term1/emth516_advanced_abstract_algebra_i/u01_placeholder_topic/notes.md)
+## EMTH 516 — Advanced Abstract Algebra I
+### 1: Review of Groups 
+#### 1.1 Definition of Group and Subgroup [Transcript](sem1/emth516/u01/1.1/emth516_u01_1.1_a_transcript.md) | [Notes](sem1/emth516/u01/1.1/emth516_u01_1.1_b_notes.md)
 
 ---
 
-### ECAP 145 — Fundamentals of Information Technology
-- [U01 – Overview of Computers (Transcript)](term1/ecap145_fundamentals_of_information_technology/u01_placeholder_topic/transcript.md)
-- [U01 – Overview of Computers (Notes)](term1/ecap145_fundamentals_of_information_technology/u01_placeholder_topic/notes.md)
-
+## ECAP 145 — Fundamentals of Information Technology
+### 1: Computer Fundamentals and Data Representation
+#### 1.1 Characteristics of Computers [Transcript](sem1/ecap145/u01/1.1/ecap145_u01_1.1_a_transcript.md) | [Notes](sem1/ecap145/u01/1.1/ecap145_u01_1.1_b_notes.md)
 ---
 
 ## 🧾 References
-- [Mathematical Symbols Glossary](references/math_symbols_glossary.md)
-- [Math Symbols Cheat Sheet](references/math_symbols_cheat_sheet.md)
-- [Intervals and Partitions](references/intervals_and_partitions.md)
-
+- [Intervals and Partitions](zzz_references/intervals_and_partitions.md)
+- [Glossary of Mathematical Symbols](zzz_references/math_symbols_glossary.md)
 ---
 
 *More courses and terms will be added progressively as the MSc journey unfolds.*
