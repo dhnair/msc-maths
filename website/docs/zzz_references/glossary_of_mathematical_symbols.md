@@ -8,7 +8,7 @@ tags:
   - Reference
 ---
 
-# 📘 Glossary of Mathematical Symbols
+# Glossary of Mathematical Symbols
 
 This reference covers the most common symbols you will encounter in an M.Sc. Mathematics journey. Each entry shows:
 - **Symbol**

@@ -25,5 +25,5 @@ Welcome to your M.Sc. Mathematics notes and transcripts.
         - [Definition of Group and Subgroup (*Transcript*)](sem1/emth516/u01/1.1/emth516_u01_1.1_a_transcript)
         - [Definition of Group and Subgroup (*Notes*)](sem1/emth516/u01/1.1/emth516_u01_1.1_b_notes)
 - **References**
+  - [Glossary of Mathematical Symbols](zzz_references/glossary_of_mathematical_symbols)
   - [Intervals and Partitions in Real Analysis](zzz_references/intervals_and_partitions)
-  - [📘 Glossary of Mathematical Symbols](zzz_references/math_symbols_glossary)
