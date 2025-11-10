@@ -24,6 +24,7 @@ __pycache__/
 *.sublime-workspace
 
 # macOS / Linux / Windows system files
+.trash/
 .DS_Store
 Thumbs.db
 desktop.ini
