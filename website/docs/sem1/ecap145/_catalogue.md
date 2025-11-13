@@ -1,1 +1,1 @@
-# ECAP145 FUNDAMENTALS OF INFORMATION TECHNOLOGY
+# ECAP145 – Fundamentals of Information Technology (Generated Index)

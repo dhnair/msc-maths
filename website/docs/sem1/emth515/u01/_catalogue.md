@@ -1,1 +1,1 @@
-# 1: The Riemann - Stieltjes integral
+# Unit 1: The Riemann–Stieltjes Integral

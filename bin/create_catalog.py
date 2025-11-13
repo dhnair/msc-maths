@@ -49,7 +49,7 @@ def create_catalogues():
         if not toc_file.endswith(".md"):
             continue  # Only TOC markdowns
 
-        course_code = toc_file.replace(".md", "").lower()
+        course_code = toc_file.split("_")[0]
         toc_path = os.path.join(TOC_DIR, toc_file)
         toc_data = parse_toc(toc_path)
 
