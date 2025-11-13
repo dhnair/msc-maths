@@ -1,0 +1,42 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# termux-sync: safely sync between Termux home and shared storage
+# Usage: termux-sync push|pull
+
+SRC_HOME="$HOME/msc-maths"
+DST_EXT="$HOME/git/msc-maths"   # this is your symlink to Download/git/msc-maths
+
+# Make sure rsync is available
+command -v rsync >/dev/null 2>&1 || {
+  echo "❌ rsync not found. Install it with: pkg install rsync"
+  exit 1
+}
+
+# Ensure correct usage
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 push|pull"
+  exit 1
+fi
+
+ACTION=$1
+LOGFILE="$HOME/.termux-sync.log"
+TS=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "[$TS] Running termux-sync $ACTION" >> "$LOGFILE"
+
+case "$ACTION" in
+  push)
+    echo "📤 Syncing from Termux → Shared storage"
+    rsync -av --update --info=stats1,progress2 "$SRC_HOME/" "$DST_EXT/" | tee -a "$LOGFILE"
+    ;;
+  pull)
+    echo "📥 Syncing from Shared storage → Termux"
+    rsync -av --update --info=stats1,progress2 "$DST_EXT/" "$SRC_HOME/" | tee -a "$LOGFILE"
+    ;;
+  *)
+    echo "Invalid argument: $ACTION"
+    echo "Usage: $0 push|pull"
+    exit 1
+    ;;
+esac
+
+echo "✅ Sync complete."
