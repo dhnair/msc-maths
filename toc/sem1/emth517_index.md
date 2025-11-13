@@ -1,4 +1,4 @@
-# EMTH517 – Theory of Differential Equations (Sem1)
+# EMTH517 – Theory of Differential Equations
 
 ## Unit 1: Introduction and Initial Value Problem
 - U01L01 – Differential Equations: Motivation, Order, Normal Form, Solution Concepts

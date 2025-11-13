@@ -1,1 +1,1 @@
-# EGEN530 – Fundamentals of Research (Sem1)
+# EGEN530 – Fundamentals of Research

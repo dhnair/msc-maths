@@ -1,4 +1,4 @@
-# ECAP145 – Fundamentals of Information Technology (Generated Index)
+# ECAP145 – Fundamentals of Information Technology
 
 ## Unit 1: Computer Fundamentals and Data Representation
 - U01L01 – Characteristics of Computers

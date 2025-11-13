@@ -1,1 +1,1 @@
-# EMTH516 – Advanced Abstract Algebra I (Sem1)
+# EMTH516 – Advanced Abstract Algebra - I

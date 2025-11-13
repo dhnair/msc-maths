@@ -1,4 +1,4 @@
-# EMTH516 – Advanced Abstract Algebra I (Sem1)
+# EMTH516 – Advanced Abstract Algebra - I
 
 ## Unit 1: Review of Groups
 - U01L01 – Binary Operations, Groups, Subgroups

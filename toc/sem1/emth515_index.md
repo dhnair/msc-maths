@@ -1,4 +1,4 @@
-# EMTH515 – Real Analysis I (Sem1)
+# EMTH515 – Real Analysis - I
 
 ## Unit 1: The Riemann–Stieltjes Integral
 - U01L01 – Definition and Existence of the Integral

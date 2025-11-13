@@ -1,4 +1,4 @@
-# EGEN530 – Fundamentals of Research (Sem1)
+# EGEN530 – Fundamentals of Research
 
 ## Unit 1: Meaning of Research
 - U01L01 – Meaning of Research
