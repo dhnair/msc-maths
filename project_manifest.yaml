@@ -1,0 +1,1895 @@
+version: '0.2'
+project: MSc Mathematics Transcript and Notes Archive
+description: Machine-readable manifest of courses, units, and lectures. No copyrighted
+  content.
+marker_format:
+  transcript: U{unit:02d}_T{lecture:02d}
+  index: U{unit:02d}L{lecture:02d}
+  filename_decimal: '{unit}.{lecture}'
+  filename_full: '{course}_u{unit:02d}_{unit}.{lecture}_{part}_{type}.md'
+semesters:
+- id: sem1
+  title: Semester 1
+  courses:
+  - code: emth515
+    name: "EMTH515 \u2013 Real Analysis - I"
+    index_file: emth515_index.md
+    units:
+    - number: 1
+      title: The Riemann-Stieltjes Integral
+      lectures:
+      - unit: 1
+        lecture: 1
+        transcript_marker: U01_T01
+        index_marker: U01L01
+        lecture_decimal: 1.1
+        title: Definition and Existence of the Integral
+      - unit: 1
+        lecture: 2
+        transcript_marker: U01_T02
+        index_marker: U01L02
+        lecture_decimal: 1.2
+        title: 'Refinement of Partitions: Monotonicity of Upper/Lower Sums'
+      - unit: 1
+        lecture: 3
+        transcript_marker: U01_T03
+        index_marker: U01L03
+        lecture_decimal: 1.3
+        title: Convergence of Sums and Integrability Criteria
+      - unit: 1
+        lecture: 4
+        transcript_marker: U01_T04
+        index_marker: U01L04
+        lecture_decimal: 1.4
+        title: Conditions Ensuring Riemann-Stieltjes Integrability
+      - unit: 1
+        lecture: 5
+        transcript_marker: U01_T05
+        index_marker: U01L05
+        lecture_decimal: 1.5
+        title: Relations Between Riemann and Riemann-Stieltjes Integrals
+    - number: 2
+      title: Properties of the Riemann-Stieltjes Integral
+      lectures:
+      - unit: 2
+        lecture: 1
+        transcript_marker: U02_T01
+        index_marker: U02L01
+        lecture_decimal: 2.1
+        title: Basic Properties of RS Sums
+      - unit: 2
+        lecture: 2
+        transcript_marker: U02_T02
+        index_marker: U02L02
+        lecture_decimal: 2.2
+        title: Boundedness and Integrability Conditions
+      - unit: 2
+        lecture: 3
+        transcript_marker: U02_T03
+        index_marker: U02L03
+        lecture_decimal: 2.3
+        title: Additivity and Linearity of the Integral
+      - unit: 2
+        lecture: 4
+        transcript_marker: U02_T04
+        index_marker: U02L04
+        lecture_decimal: 2.4
+        title: Refinement-Based Characterizations
+      - unit: 2
+        lecture: 5
+        transcript_marker: U02_T05
+        index_marker: U02L05
+        lecture_decimal: 2.5
+        title: Sufficient Conditions for Integrability
+      - unit: 2
+        lecture: 6
+        transcript_marker: U02_T06
+        index_marker: U02L06
+        lecture_decimal: 2.6
+        title: Functions of Bounded Variation
+      - unit: 2
+        lecture: 7
+        transcript_marker: U02_T07
+        index_marker: U02L07
+        lecture_decimal: 2.7
+        title: Combining Integrals and Composite Partitions
+    - number: 3
+      title: Fundamental Theorem of Calculus & Mean Value Theorems
+      lectures:
+      - unit: 3
+        lecture: 1
+        transcript_marker: U03_T01
+        index_marker: U03L01
+        lecture_decimal: 3.1
+        title: FTC for Riemann-Stieltjes Integrals and Mean Value Results
+    - number: 4
+      title: Integration and Differentiation
+      lectures:
+      - unit: 4
+        lecture: 1
+        transcript_marker: U04_T01
+        index_marker: U04L01
+        lecture_decimal: 4.1
+        title: Differentiation Under the Integral Sign
+    - number: 5
+      title: Vector-Valued Integration & Rectifiable Curves
+      lectures:
+      - unit: 5
+        lecture: 1
+        transcript_marker: U05_T01
+        index_marker: U05L01
+        lecture_decimal: 5.1
+        title: Integrals of Vector-Valued Functions
+      - unit: 5
+        lecture: 2
+        transcript_marker: U05_T02
+        index_marker: U05L02
+        lecture_decimal: 5.2
+        title: Rectifiable Curves and Arc Length
+    - number: 6
+      title: Pointwise & Uniform Convergence (Sequences/Series)
+      lectures:
+      - unit: 6
+        lecture: 1
+        transcript_marker: U06_T01
+        index_marker: U06L01
+        lecture_decimal: 6.1
+        title: Pointwise vs Uniform Convergence (Foundations)
+      - unit: 6
+        lecture: 2
+        transcript_marker: U06_T02
+        index_marker: U06L02
+        lecture_decimal: 6.2
+        title: 'Uniform Convergence: Properties'
+      - unit: 6
+        lecture: 3
+        transcript_marker: U06_T03
+        index_marker: U06L03
+        lecture_decimal: 6.3
+        title: 'Uniform Convergence: Theorems'
+      - unit: 6
+        lecture: 4
+        transcript_marker: U06_T04
+        index_marker: U06L04
+        lecture_decimal: 6.4
+        title: Convergence of Function Sequences
+      - unit: 6
+        lecture: 5
+        transcript_marker: U06_T05
+        index_marker: U06L05
+        lecture_decimal: 6.5
+        title: Interchanging Limits
+      - unit: 6
+        lecture: 6
+        transcript_marker: U06_T06
+        index_marker: U06L06
+        lecture_decimal: 6.6
+        title: 'Uniform Convergence: Applications'
+    - number: 7
+      title: Uniform Convergence & Continuity
+      lectures:
+      - unit: 7
+        lecture: 1
+        transcript_marker: U07_T01
+        index_marker: U07L01
+        lecture_decimal: 7.1
+        title: Effect of Uniform Convergence on Continuity
+      - unit: 7
+        lecture: 2
+        transcript_marker: U07_T02
+        index_marker: U07L02
+        lecture_decimal: 7.2
+        title: 'Continuity Preservation: Deeper Results'
+    - number: 8
+      title: Uniform Convergence & Integration
+      lectures:
+      - unit: 8
+        lecture: 1
+        transcript_marker: U08_T01
+        index_marker: U08L01
+        lecture_decimal: 8.1
+        title: Uniform Convergence and Integrability
+    - number: 9
+      title: Uniform Convergence & Differentiation
+      lectures:
+      - unit: 9
+        lecture: 1
+        transcript_marker: U09_T01
+        index_marker: U09L01
+        lecture_decimal: 9.1
+        title: Differentiation of Limit Functions
+    - number: 10
+      title: Approximation Theorems & Equicontinuity
+      lectures:
+      - unit: 10
+        lecture: 1
+        transcript_marker: U10_T01
+        index_marker: U10L01
+        lecture_decimal: 10.1
+        title: Weierstrass Approximation Theorem
+      - unit: 10
+        lecture: 2
+        transcript_marker: U10_T02
+        index_marker: U10L02
+        lecture_decimal: 10.2
+        title: Equicontinuity of Function Families (Foundations)
+      - unit: 10
+        lecture: 3
+        transcript_marker: U10_T03
+        index_marker: U10L03
+        lecture_decimal: 10.3
+        title: 'Equicontinuity: Characterizations and Examples'
+    - number: 11
+      title: Power Series & Classical Functions
+      lectures:
+      - unit: 11
+        lecture: 1
+        transcript_marker: U11_T01
+        index_marker: U11L01
+        lecture_decimal: 11.1
+        title: Power Series and Uniform Convergence (Theory)
+      - unit: 11
+        lecture: 2
+        transcript_marker: U11_T02
+        index_marker: U11L02
+        lecture_decimal: 11.2
+        title: 'Power Series: Term-by-Term Operations'
+      - unit: 11
+        lecture: 3
+        transcript_marker: U11_T03
+        index_marker: U11L03
+        lecture_decimal: 11.3
+        title: Exponential, Logarithmic & Trigonometric Functions
+    - number: 12
+      title: Functions of Several Variables
+      lectures:
+      - unit: 12
+        lecture: 1
+        transcript_marker: U12_T01
+        index_marker: U12L01
+        lecture_decimal: 12.1
+        title: Linear Transformations on R^n
+      - unit: 12
+        lecture: 2
+        transcript_marker: U12_T02
+        index_marker: U12L02
+        lecture_decimal: 12.2
+        title: 'Linear Maps: Continuity & Operators'
+      - unit: 12
+        lecture: 3
+        transcript_marker: U12_T03
+        index_marker: U12L03
+        lecture_decimal: 12.3
+        title: Differentiation in Several Variables
+      - unit: 12
+        lecture: 4
+        transcript_marker: U12_T04
+        index_marker: U12L04
+        lecture_decimal: 12.4
+        title: Partial & Directional Derivatives
+      - unit: 12
+        lecture: 5
+        transcript_marker: U12_T05
+        index_marker: U12L05
+        lecture_decimal: 12.5
+        title: Contraction Principle
+    - number: 13
+      title: Inverse & Implicit Function Theorems
+      lectures:
+      - unit: 13
+        lecture: 1
+        transcript_marker: U13_T01
+        index_marker: U13L01
+        lecture_decimal: 13.1
+        title: Inverse Function Theorem (Foundations)
+      - unit: 13
+        lecture: 2
+        transcript_marker: U13_T02
+        index_marker: U13L02
+        lecture_decimal: 13.2
+        title: Inverse Function Theorem (Proof Structure)
+      - unit: 13
+        lecture: 3
+        transcript_marker: U13_T03
+        index_marker: U13L03
+        lecture_decimal: 13.3
+        title: Implicit Function Theorem
+    - number: 14
+      title: Cauchy Product of Series
+      lectures:
+      - unit: 14
+        lecture: 1
+        transcript_marker: U14_T01
+        index_marker: U14L01
+        lecture_decimal: 14.1
+        title: Definition of Series Addition & Cauchy Product
+      - unit: 14
+        lecture: 2
+        transcript_marker: U14_T02
+        index_marker: U14L02
+        lecture_decimal: 14.2
+        title: 'Cauchy Product: Theorems and Examples'
+      - unit: 14
+        lecture: 3
+        transcript_marker: U14_T03
+        index_marker: U14L03
+        lecture_decimal: 14.3
+        title: Convergence Properties of Product Series
+      - unit: 14
+        lecture: 4
+        transcript_marker: U14_T04
+        index_marker: U14L04
+        lecture_decimal: 14.4
+        title: Cauchy Product in Analysis
+      - unit: 14
+        lecture: 5
+        transcript_marker: U14_T05
+        index_marker: U14L05
+        lecture_decimal: 14.5
+        title: Advanced Examples and Edge Cases
+  - code: emth516
+    name: "EMTH516 \u2013 Advanced Abstract Algebra - I"
+    index_file: emth516_index.md
+    units:
+    - number: 1
+      title: Review of Groups
+      lectures:
+      - unit: 1
+        lecture: 1
+        transcript_marker: U01_T01
+        index_marker: U01L01
+        lecture_decimal: 1.1
+        title: Binary Operations, Groups, Subgroups
+      - unit: 1
+        lecture: 2
+        transcript_marker: U01_T02
+        index_marker: U01L02
+        lecture_decimal: 1.2
+        title: Cosets and Normal Subgroups; Lagrange's Theorem
+      - unit: 1
+        lecture: 3
+        transcript_marker: U01_T03
+        index_marker: U01L03
+        lecture_decimal: 1.3
+        title: Order of Elements; Cyclic and Quotient Groups
+      - unit: 1
+        lecture: 4
+        transcript_marker: U01_T04
+        index_marker: U01L04
+        lecture_decimal: 1.4
+        title: Group Homomorphisms and Isomorphisms
+      - unit: 1
+        lecture: 5
+        transcript_marker: U01_T05
+        index_marker: U01L05
+        lecture_decimal: 1.5
+        title: Permutation Groups; Integers Modulo n
+    - number: 2
+      title: Solvable Groups and Series
+      lectures:
+      - unit: 2
+        lecture: 1
+        transcript_marker: U02_T01
+        index_marker: U02L01
+        lecture_decimal: 2.1
+        title: Subnormal Series and Examples
+      - unit: 2
+        lecture: 2
+        transcript_marker: U02_T02
+        index_marker: U02L02
+        lecture_decimal: 2.2
+        title: p-Groups, Solvability; Direct Products
+      - unit: 2
+        lecture: 3
+        transcript_marker: U02_T03
+        index_marker: U02L03
+        lecture_decimal: 2.3
+        title: Composition Series and Isomorphism Results
+      - unit: 2
+        lecture: 4
+        transcript_marker: U02_T04
+        index_marker: U02L04
+        lecture_decimal: 2.4
+        title: Jordan-Hlder Theorem
+      - unit: 2
+        lecture: 5
+        transcript_marker: U02_T05
+        index_marker: U02L05
+        lecture_decimal: 2.5
+        title: Normal Series; Solvable vs Nilpotent Groups
+    - number: 3
+      title: Basic Theory of Field Extensions
+      lectures:
+      - unit: 3
+        lecture: 1
+        transcript_marker: U03_T01
+        index_marker: U03L01
+        lecture_decimal: 3.1
+        title: Fields and Algebraic Structures
+      - unit: 3
+        lecture: 2
+        transcript_marker: U03_T02
+        index_marker: U03L02
+        lecture_decimal: 3.2
+        title: 'Field Extensions: Basis and Degree'
+      - unit: 3
+        lecture: 3
+        transcript_marker: U03_T03
+        index_marker: U03L03
+        lecture_decimal: 3.3
+        title: Minimal and Monic Polynomials
+      - unit: 3
+        lecture: 4
+        transcript_marker: U03_T04
+        index_marker: U03L04
+        lecture_decimal: 3.4
+        title: Algebraic vs Finite Extensions
+      - unit: 3
+        lecture: 5
+        transcript_marker: U03_T05
+        index_marker: U03L05
+        lecture_decimal: 3.5
+        title: Multiplicity of Roots
+      - unit: 3
+        lecture: 6
+        transcript_marker: U03_T06
+        index_marker: U03L06
+        lecture_decimal: 3.6
+        title: Extensions Corresponding to Polynomials
+    - number: 4
+      title: Splitting Fields and Separable Elements
+      lectures:
+      - unit: 4
+        lecture: 1
+        transcript_marker: U04_T01
+        index_marker: U04L01
+        lecture_decimal: 4.1
+        title: 'Splitting Fields: Definitions and Examples'
+      - unit: 4
+        lecture: 2
+        transcript_marker: U04_T02
+        index_marker: U04L02
+        lecture_decimal: 4.2
+        title: Basis, Degree, Conjugates; Algebraically Closed Fields
+      - unit: 4
+        lecture: 3
+        transcript_marker: U04_T03
+        index_marker: U04L03
+        lecture_decimal: 4.3
+        title: Polynomial Differentiation and Multiple Roots
+      - unit: 4
+        lecture: 4
+        transcript_marker: U04_T04
+        index_marker: U04L04
+        lecture_decimal: 4.4
+        title: Separable and Inseparable Extensions
+    - number: 5
+      title: Normal Extensions and Finite Fields
+      lectures:
+      - unit: 5
+        lecture: 1
+        transcript_marker: U05_T01
+        index_marker: U05L01
+        lecture_decimal: 5.1
+        title: Normal Extensions; Relation to Splitting Fields
+      - unit: 5
+        lecture: 2
+        transcript_marker: U05_T02
+        index_marker: U05L02
+        lecture_decimal: 5.2
+        title: Perfect Fields; Primitive Elements
+      - unit: 5
+        lecture: 3
+        transcript_marker: U05_T03
+        index_marker: U05L03
+        lecture_decimal: 5.3
+        title: 'Finite Fields: Order and Characteristic'
+      - unit: 5
+        lecture: 4
+        transcript_marker: U05_T04
+        index_marker: U05L04
+        lecture_decimal: 5.4
+        title: Cyclic Nature of Multiplicative Groups of Finite Fields
+      - unit: 5
+        lecture: 5
+        transcript_marker: U05_T05
+        index_marker: U05L05
+        lecture_decimal: 5.5
+        title: Steinitz Theorem
+    - number: 6
+      title: Introduction to Galois Theory
+      lectures:
+      - unit: 6
+        lecture: 1
+        transcript_marker: U06_T01
+        index_marker: U06L01
+        lecture_decimal: 6.1
+        title: Automorphism Groups of Fields
+      - unit: 6
+        lecture: 2
+        transcript_marker: U06_T02
+        index_marker: U06L02
+        lecture_decimal: 6.2
+        title: Fixed Fields and Galois Fields
+      - unit: 6
+        lecture: 3
+        transcript_marker: U06_T03
+        index_marker: U06L03
+        lecture_decimal: 6.3
+        title: Artin's Theorem and Consequences
+      - unit: 6
+        lecture: 4
+        transcript_marker: U06_T04
+        index_marker: U06L04
+        lecture_decimal: 6.4
+        title: 'Galois Correspondence: Basic Framework'
+    - number: 7
+      title: Fundamental Theorem of Galois Theory
+      lectures:
+      - unit: 7
+        lecture: 1
+        transcript_marker: U07_T01
+        index_marker: U07L01
+        lecture_decimal: 7.1
+        title: Galois Groups of Polynomials (Part 1)
+      - unit: 7
+        lecture: 2
+        transcript_marker: U07_T02
+        index_marker: U07L02
+        lecture_decimal: 7.2
+        title: Galois Groups of Polynomials (Part 2)
+      - unit: 7
+        lecture: 3
+        transcript_marker: U07_T03
+        index_marker: U07L03
+        lecture_decimal: 7.3
+        title: Extensions and Subgroup Correspondence
+    - number: 8
+      title: Cyclotomic and Abelian Extensions
+      lectures:
+      - unit: 8
+        lecture: 1
+        transcript_marker: U08_T01
+        index_marker: U08L01
+        lecture_decimal: 8.1
+        title: Cyclotomic Extensions and Roots of Unity
+      - unit: 8
+        lecture: 2
+        transcript_marker: U08_T02
+        index_marker: U08L02
+        lecture_decimal: 8.2
+        title: Abelian Extensions and Examples
+      - unit: 8
+        lecture: 3
+        transcript_marker: U08_T03
+        index_marker: U08L03
+        lecture_decimal: 8.3
+        title: Structure of Cyclotomic Fields
+    - number: 9
+      title: Fundamental Theorem of Algebra & Composite Extensions
+      lectures:
+      - unit: 9
+        lecture: 1
+        transcript_marker: U09_T01
+        index_marker: U09L01
+        lecture_decimal: 9.1
+        title: Fundamental Theorem of Algebra
+      - unit: 9
+        lecture: 2
+        transcript_marker: U09_T02
+        index_marker: U09L02
+        lecture_decimal: 9.2
+        title: Composite Extensions; Intermediate Field Behavior
+    - number: 10
+      title: Normal Closure of Algebraic Extensions
+      lectures:
+      - unit: 10
+        lecture: 1
+        transcript_marker: U10_T01
+        index_marker: U10L01
+        lecture_decimal: 10.1
+        title: 'Normal Closure: Definition and Construction'
+      - unit: 10
+        lecture: 2
+        transcript_marker: U10_T02
+        index_marker: U10L02
+        lecture_decimal: 10.2
+        title: Properties of Normal Closures
+    - number: 11
+      title: Radical Extensions
+      lectures:
+      - unit: 11
+        lecture: 1
+        transcript_marker: U11_T01
+        index_marker: U11L01
+        lecture_decimal: 11.1
+        title: Radical Extensions and Basic Properties
+      - unit: 11
+        lecture: 2
+        transcript_marker: U11_T02
+        index_marker: U11L02
+        lecture_decimal: 11.2
+        title: Solvability by Radicals
+    - number: 12
+      title: Insolvability of Degree  5
+      lectures:
+      - unit: 12
+        lecture: 1
+        transcript_marker: U12_T01
+        index_marker: U12L01
+        lecture_decimal: 12.1
+        title: Insolvability of General Quintic Equations
+      - unit: 12
+        lecture: 2
+        transcript_marker: U12_T02
+        index_marker: U12L02
+        lecture_decimal: 12.2
+        title: Higher-Degree Polynomial Limits of Solvability
+    - number: 13
+      title: Symmetric Functions and Cyclic Extensions
+      lectures:
+      - unit: 13
+        lecture: 1
+        transcript_marker: U13_T01
+        index_marker: U13L01
+        lecture_decimal: 13.1
+        title: Symmetric Polynomials and Elementary Symmetric Functions
+      - unit: 13
+        lecture: 2
+        transcript_marker: U13_T02
+        index_marker: U13L02
+        lecture_decimal: 13.2
+        title: Discriminants; Structure of Cyclic Extensions
+    - number: 14
+      title: Advanced Topics in Galois Theory
+      lectures:
+      - unit: 14
+        lecture: 1
+        transcript_marker: U14_T01
+        index_marker: U14L01
+        lecture_decimal: 14.1
+        title: Non-Abelian Galois Groups
+      - unit: 14
+        lecture: 2
+        transcript_marker: U14_T02
+        index_marker: U14L02
+        lecture_decimal: 14.2
+        title: Applications and Further Examples
+  - code: emth517
+    name: "EMTH517 \u2013 Theory of Differential Equations"
+    index_file: emth517_index.md
+    units:
+    - number: 1
+      title: Introduction and Initial Value Problem
+      lectures:
+      - unit: 1
+        lecture: 1
+        transcript_marker: U01_T01
+        index_marker: U01L01
+        lecture_decimal: 1.1
+        title: 'Differential Equations: Motivation, Order, Normal Form, Solution Concepts'
+      - unit: 1
+        lecture: 2
+        transcript_marker: U01_T02
+        index_marker: U01L02
+        lecture_decimal: 1.2
+        title: Converting Higher-Order ODEs into First-Order Systems
+    - number: 2
+      title: Existence and Uniqueness
+      lectures:
+      - unit: 2
+        lecture: 1
+        transcript_marker: U02_T01
+        index_marker: U02L01
+        lecture_decimal: 2.1
+        title: 'Local Existence and Uniqueness: Foundations'
+      - unit: 2
+        lecture: 2
+        transcript_marker: U02_T02
+        index_marker: U02L02
+        lecture_decimal: 2.2
+        title: 'Local Existence and Uniqueness: Lipschitz & Conditions'
+      - unit: 2
+        lecture: 3
+        transcript_marker: U02_T03
+        index_marker: U02L03
+        lecture_decimal: 2.3
+        title: 'Local Existence and Uniqueness: Completing the Framework'
+      - unit: 2
+        lecture: 4
+        transcript_marker: U02_T04
+        index_marker: U02L04
+        lecture_decimal: 2.4
+        title: Picard's Existence Theorem
+      - unit: 2
+        lecture: 5
+        transcript_marker: U02_T05
+        index_marker: U02L05
+        lecture_decimal: 2.5
+        title: Existence in the Large and Global Uniqueness
+    - number: 3
+      title: Peano's Existence Theorem
+      lectures:
+      - unit: 3
+        lecture: 1
+        transcript_marker: U03_T01
+        index_marker: U03L01
+        lecture_decimal: 3.1
+        title: Existence Without Uniqueness
+      - unit: 3
+        lecture: 2
+        transcript_marker: U03_T02
+        index_marker: U03L02
+        lecture_decimal: 3.2
+        title: Ascoli-Arzel Theorem and Compactness Arguments
+      - unit: 3
+        lecture: 3
+        transcript_marker: U03_T03
+        index_marker: U03L03
+        lecture_decimal: 3.3
+        title: Peano's Theorem and its Corollary
+    - number: 4
+      title: Existence Theorem for Systems of Differential Equations
+      lectures:
+      - unit: 4
+        lecture: 1
+        transcript_marker: U04_T01
+        index_marker: U04L01
+        lecture_decimal: 4.1
+        title: Picard-Lindelf Theorem for Systems (Part 1)
+      - unit: 4
+        lecture: 2
+        transcript_marker: U04_T02
+        index_marker: U04L02
+        lecture_decimal: 4.2
+        title: Picard-Lindelf Theorem for Systems (Part 2)
+      - unit: 4
+        lecture: 3
+        transcript_marker: U04_T03
+        index_marker: U04L03
+        lecture_decimal: 4.3
+        title: Maximal Interval of Existence, Extension Theorem & Corollaries
+    - number: 5
+      title: Differential Inequality
+      lectures:
+      - unit: 5
+        lecture: 1
+        transcript_marker: U05_T01
+        index_marker: U05L01
+        lecture_decimal: 5.1
+        title: 'Differential Inequalities: Basic Results'
+      - unit: 5
+        lecture: 2
+        transcript_marker: U05_T02
+        index_marker: U05L02
+        lecture_decimal: 5.2
+        title: Maximal and Minimal Solutions
+    - number: 6
+      title: Integral Inequalities
+      lectures:
+      - unit: 6
+        lecture: 1
+        transcript_marker: U06_T01
+        index_marker: U06L01
+        lecture_decimal: 6.1
+        title: Integral Inequalities; Grnwall's Inequality
+    - number: 7
+      title: More Theorems of Integral Inequality
+      lectures:
+      - unit: 7
+        lecture: 1
+        transcript_marker: U07_T01
+        index_marker: U07L01
+        lecture_decimal: 7.1
+        title: Kamke's Convergence Theorem; Kneser's Theorem (Statement)
+      - unit: 7
+        lecture: 2
+        transcript_marker: U07_T02
+        index_marker: U07L02
+        lecture_decimal: 7.2
+        title: Wintner's Theorem
+    - number: 8
+      title: Linear Systems
+      lectures:
+      - unit: 8
+        lecture: 1
+        transcript_marker: U08_T01
+        index_marker: U08L01
+        lecture_decimal: 8.1
+        title: Homogeneous Linear Systems (Part 1)
+      - unit: 8
+        lecture: 2
+        transcript_marker: U08_T02
+        index_marker: U08L02
+        lecture_decimal: 8.2
+        title: Homogeneous Linear Systems (Part 2)
+      - unit: 8
+        lecture: 3
+        transcript_marker: U08_T03
+        index_marker: U08L03
+        lecture_decimal: 8.3
+        title: Abel-Liouville Formula
+      - unit: 8
+        lecture: 4
+        transcript_marker: U08_T04
+        index_marker: U08L04
+        lecture_decimal: 8.4
+        title: Non-Homogeneous Systems & Variation of Constants
+      - unit: 8
+        lecture: 5
+        transcript_marker: U08_T05
+        index_marker: U08L05
+        lecture_decimal: 8.5
+        title: Applications of Linear Systems
+    - number: 9
+      title: Periodic and Adjoint Linear Systems
+      lectures:
+      - unit: 9
+        lecture: 1
+        transcript_marker: U09_T01
+        index_marker: U09L01
+        lecture_decimal: 9.1
+        title: Periodic Linear Systems; Floquet Theory
+      - unit: 9
+        lecture: 2
+        transcript_marker: U09_T02
+        index_marker: U09L02
+        lecture_decimal: 9.2
+        title: Adjoint Systems; Higher-Order Linear Differential Equations
+    - number: 10
+      title: Liapunov Function
+      lectures:
+      - unit: 10
+        lecture: 1
+        transcript_marker: U10_T01
+        index_marker: U10L01
+        lecture_decimal: 10.1
+        title: 'Liapunov Functions: Concepts and Stability (Part 1)'
+      - unit: 10
+        lecture: 2
+        transcript_marker: U10_T02
+        index_marker: U10L02
+        lecture_decimal: 10.2
+        title: 'Liapunov Functions: Further Results (Part 2)'
+    - number: 11
+      title: Linear Second Order Differential Equation
+      lectures:
+      - unit: 11
+        lecture: 1
+        transcript_marker: U11_T01
+        index_marker: U11L01
+        lecture_decimal: 11.1
+        title: Linear Second-Order Differential Equations
+      - unit: 11
+        lecture: 2
+        transcript_marker: U11_T02
+        index_marker: U11L02
+        lecture_decimal: 11.2
+        title: Abel's Formula for Second-Order Equations
+    - number: 12
+      title: The Sturmian Theory
+      lectures:
+      - unit: 12
+        lecture: 1
+        transcript_marker: U12_T01
+        index_marker: U12L01
+        lecture_decimal: 12.1
+        title: Sturm Separation Theorem
+      - unit: 12
+        lecture: 2
+        transcript_marker: U12_T02
+        index_marker: U12L02
+        lecture_decimal: 12.2
+        title: Sturm Comparison Theorem
+    - number: 13
+      title: Sturm Boundary Value Problem
+      lectures:
+      - unit: 13
+        lecture: 1
+        transcript_marker: U13_T01
+        index_marker: U13L01
+        lecture_decimal: 13.1
+        title: Sturm-Liouville Boundary Value Problems
+      - unit: 13
+        lecture: 2
+        transcript_marker: U13_T02
+        index_marker: U13L02
+        lecture_decimal: 13.2
+        title: Oscillatory Equations and Zero Distribution
+    - number: 14
+      title: Non-Oscillatory and Principal Solution
+      lectures:
+      - unit: 14
+        lecture: 1
+        transcript_marker: U14_T01
+        index_marker: U14L01
+        lecture_decimal: 14.1
+        title: Non-Oscillatory Equations
+      - unit: 14
+        lecture: 2
+        transcript_marker: U14_T02
+        index_marker: U14L02
+        lecture_decimal: 14.2
+        title: Principal Solutions and Related Theorems
+  - code: egen530
+    name: "EGEN530 \u2013 Fundamentals of Research"
+    index_file: egen530_index.md
+    units:
+    - number: 1
+      title: Meaning of Research
+      lectures:
+      - unit: 1
+        lecture: 1
+        transcript_marker: U01_T01
+        index_marker: U01L01
+        lecture_decimal: 1.1
+        title: Meaning of Research
+      - unit: 1
+        lecture: 2
+        transcript_marker: U01_T02
+        index_marker: U01L02
+        lecture_decimal: 1.2
+        title: Objectives of Research
+      - unit: 1
+        lecture: 3
+        transcript_marker: U01_T03
+        index_marker: U01L03
+        lecture_decimal: 1.3
+        title: Motivations in Research
+      - unit: 1
+        lecture: 4
+        transcript_marker: U01_T04
+        index_marker: U01L04
+        lecture_decimal: 1.4
+        title: Types of Research
+    - number: 2
+      title: Research Approaches and Theory
+      lectures:
+      - unit: 2
+        lecture: 1
+        transcript_marker: U02_T01
+        index_marker: U02L01
+        lecture_decimal: 2.1
+        title: Research Approaches and Significance
+      - unit: 2
+        lecture: 2
+        transcript_marker: U02_T02
+        index_marker: U02L02
+        lecture_decimal: 2.2
+        title: Research Process and Criteria of Good Research
+      - unit: 2
+        lecture: 3
+        transcript_marker: U02_T03
+        index_marker: U02L03
+        lecture_decimal: 2.3
+        title: Concept of Theory; Deductive and Inductive Reasoning
+    - number: 3
+      title: Literature Survey and Research Gaps
+      lectures:
+      - unit: 3
+        lecture: 1
+        transcript_marker: U03_T01
+        index_marker: U03L01
+        lecture_decimal: 3.1
+        title: Literature Survey
+      - unit: 3
+        lecture: 2
+        transcript_marker: U03_T02
+        index_marker: U03L02
+        lecture_decimal: 3.2
+        title: Identifying Research Gaps
+      - unit: 3
+        lecture: 3
+        transcript_marker: U03_T03
+        index_marker: U03L03
+        lecture_decimal: 3.3
+        title: Problem Identification (Industrial & Societal Needs)
+      - unit: 3
+        lecture: 4
+        transcript_marker: U03_T04
+        index_marker: U03L04
+        lecture_decimal: 3.4
+        title: Potential and Thrust Areas
+      - unit: 3
+        lecture: 5
+        transcript_marker: U03_T05
+        index_marker: U03L05
+        lecture_decimal: 3.5
+        title: Scientific Literature vs Advocacy Literature
+    - number: 4
+      title: Hypothesis and Research Tools
+      lectures:
+      - unit: 4
+        lecture: 1
+        transcript_marker: U04_T01
+        index_marker: U04L01
+        lecture_decimal: 4.1
+        title: 'Hypothesis: Qualities; Null and Alternative Hypotheses'
+      - unit: 4
+        lecture: 2
+        transcript_marker: U04_T02
+        index_marker: U04L02
+        lecture_decimal: 4.2
+        title: Databases, Search Engines, and Research Gateways
+    - number: 5
+      title: Journals and Indexing
+      lectures:
+      - unit: 5
+        lecture: 1
+        transcript_marker: U05_T01
+        index_marker: U05L01
+        lecture_decimal: 5.1
+        title: Types and Classification of Journals
+      - unit: 5
+        lecture: 2
+        transcript_marker: U05_T02
+        index_marker: U05L02
+        lecture_decimal: 5.2
+        title: Journal Indexing
+      - unit: 5
+        lecture: 3
+        transcript_marker: U05_T03
+        index_marker: U05L03
+        lecture_decimal: 5.3
+        title: Role of Indexing in Journal Quality
+    - number: 6
+      title: Citation Indices
+      lectures:
+      - unit: 6
+        lecture: 1
+        transcript_marker: U06_T01
+        index_marker: U06L01
+        lecture_decimal: 6.1
+        title: 'Citation Metrics: h-index, h5-index, g-index, i10-index'
+      - unit: 6
+        lecture: 2
+        transcript_marker: U06_T02
+        index_marker: U06L02
+        lecture_decimal: 6.2
+        title: JIF, CiteScore, SJR, SNIP, Eigenfactor
+    - number: 7
+      title: Research Paper Review
+      lectures:
+      - unit: 7
+        lecture: 1
+        transcript_marker: U07_T01
+        index_marker: U07L01
+        lecture_decimal: 7.1
+        title: Review Process, Citation, Self-Citation, Funding Agencies
+      - unit: 7
+        lecture: 2
+        transcript_marker: U07_T02
+        index_marker: U07L02
+        lecture_decimal: 7.2
+        title: Academic Social Networks (Google Scholar, Academia, ResearchGate)
+    - number: 8
+      title: Research Ethics
+      lectures:
+      - unit: 8
+        lecture: 1
+        transcript_marker: U08_T01
+        index_marker: U08L01
+        lecture_decimal: 8.1
+        title: Objectivity, Integrity, Carefulness, Openness
+      - unit: 8
+        lecture: 2
+        transcript_marker: U08_T02
+        index_marker: U08L02
+        lecture_decimal: 8.2
+        title: Intellectual Property, Confidentiality, Social Responsibility
+      - unit: 8
+        lecture: 3
+        transcript_marker: U08_T03
+        index_marker: U08L03
+        lecture_decimal: 8.3
+        title: Legality and Informed Consent
+    - number: 9
+      title: Plagiarism and Academic Misconduct
+      lectures:
+      - unit: 9
+        lecture: 1
+        transcript_marker: U09_T01
+        index_marker: U09L01
+        lecture_decimal: 9.1
+        title: Plagiarism; Turnitin/Authenticate
+      - unit: 9
+        lecture: 2
+        transcript_marker: U09_T02
+        index_marker: U09L02
+        lecture_decimal: 9.2
+        title: Penalties and Consequences; UGC Guidelines
+    - number: 10
+      title: Research and Thesis Writing
+      lectures:
+      - unit: 10
+        lecture: 1
+        transcript_marker: U10_T01
+        index_marker: U10L01
+        lecture_decimal: 10.1
+        title: 'Research Writing: Papers, Proposals, Reviews'
+      - unit: 10
+        lecture: 2
+        transcript_marker: U10_T02
+        index_marker: U10L02
+        lecture_decimal: 10.2
+        title: Thesis Writing
+      - unit: 10
+        lecture: 3
+        transcript_marker: U10_T03
+        index_marker: U10L03
+        lecture_decimal: 10.3
+        title: 'Microsoft Word: Formatting and Document Tools'
+      - unit: 10
+        lecture: 4
+        transcript_marker: U10_T04
+        index_marker: U10L04
+        lecture_decimal: 10.4
+        title: Reference Styles
+    - number: 11
+      title: Poster and Presentation Skills
+      lectures:
+      - unit: 11
+        lecture: 1
+        transcript_marker: U11_T01
+        index_marker: U11L01
+        lecture_decimal: 11.1
+        title: Poster Preparation
+      - unit: 11
+        lecture: 2
+        transcript_marker: U11_T02
+        index_marker: U11L02
+        lecture_decimal: 11.2
+        title: Coherence of Ideas
+      - unit: 11
+        lecture: 3
+        transcript_marker: U11_T03
+        index_marker: U11L03
+        lecture_decimal: 11.3
+        title: Use of Theory in Writing
+      - unit: 11
+        lecture: 4
+        transcript_marker: U11_T04
+        index_marker: U11L04
+        lecture_decimal: 11.4
+        title: 'Microsoft PowerPoint: Posters and Slides'
+    - number: 12
+      title: Introduction to IPR
+      lectures:
+      - unit: 12
+        lecture: 1
+        transcript_marker: U12_T01
+        index_marker: U12L01
+        lecture_decimal: 12.1
+        title: 'Intellectual Property Rights: Concepts, Theories, Types'
+      - unit: 12
+        lecture: 2
+        transcript_marker: U12_T02
+        index_marker: U12L02
+        lecture_decimal: 12.2
+        title: Patents and the Patent Act (1970, Amendments 1999-2005)
+    - number: 13
+      title: Copyright and Trademark
+      lectures:
+      - unit: 13
+        lecture: 1
+        transcript_marker: U13_T01
+        index_marker: U13L01
+        lecture_decimal: 13.1
+        title: Copyright and Neighbouring Rights
+      - unit: 13
+        lecture: 2
+        transcript_marker: U13_T02
+        index_marker: U13L02
+        lecture_decimal: 13.2
+        title: 'Trademark: History and Law'
+    - number: 14
+      title: International IPR Regime
+      lectures:
+      - unit: 14
+        lecture: 1
+        transcript_marker: U14_T01
+        index_marker: U14L01
+        lecture_decimal: 14.1
+        title: TRIPS, WIPO, WTO, GATTs; International Treaties
+  - code: ecap145
+    name: "ECAP145 \u2013 Fundamentals of Information Technology"
+    index_file: ecap145_index.md
+    units:
+    - number: 1
+      title: Computer Fundamentals and Data Representation
+      lectures:
+      - unit: 1
+        lecture: 1
+        transcript_marker: U01_T01
+        index_marker: U01L01
+        lecture_decimal: 1.1
+        title: Characteristics of Computers
+      - unit: 1
+        lecture: 2
+        transcript_marker: U01_T02
+        index_marker: U01L02
+        lecture_decimal: 1.2
+        title: Evolution of Computers
+      - unit: 1
+        lecture: 3
+        transcript_marker: U01_T03
+        index_marker: U01L03
+        lecture_decimal: 1.3
+        title: Computer Generations
+      - unit: 1
+        lecture: 4
+        transcript_marker: U01_T04
+        index_marker: U01L04
+        lecture_decimal: 1.4
+        title: Basic Operations of a Computer
+      - unit: 1
+        lecture: 5
+        transcript_marker: U01_T05
+        index_marker: U01L05
+        lecture_decimal: 1.5
+        title: Block Diagram of a Computer
+      - unit: 1
+        lecture: 6
+        transcript_marker: U01_T06
+        index_marker: U01L06
+        lecture_decimal: 1.6
+        title: Applications of IT in Various Sectors
+      - unit: 1
+        lecture: 7
+        transcript_marker: U01_T07
+        index_marker: U01L07
+        lecture_decimal: 1.7
+        title: 'Data Representation: Bits, Bytes, Codes'
+      - unit: 1
+        lecture: 8
+        transcript_marker: U01_T08
+        index_marker: U01L08
+        lecture_decimal: 1.8
+        title: Number System Conversions
+    - number: 2
+      title: Memory
+      lectures:
+      - unit: 2
+        lecture: 1
+        transcript_marker: U02_T01
+        index_marker: U02L01
+        lecture_decimal: 2.1
+        title: Memory System Overview
+      - unit: 2
+        lecture: 2
+        transcript_marker: U02_T02
+        index_marker: U02L02
+        lecture_decimal: 2.2
+        title: Units of Memory
+      - unit: 2
+        lecture: 3
+        transcript_marker: U02_T03
+        index_marker: U02L03
+        lecture_decimal: 2.3
+        title: Primary vs Secondary Memory
+      - unit: 2
+        lecture: 4
+        transcript_marker: U02_T04
+        index_marker: U02L04
+        lecture_decimal: 2.4
+        title: Memory Instruction Set
+      - unit: 2
+        lecture: 5
+        transcript_marker: U02_T05
+        index_marker: U02L05
+        lecture_decimal: 2.5
+        title: Memory Registers
+      - unit: 2
+        lecture: 6
+        transcript_marker: U02_T06
+        index_marker: U02L06
+        lecture_decimal: 2.6
+        title: Input-Output Devices
+      - unit: 2
+        lecture: 7
+        transcript_marker: U02_T07
+        index_marker: U02L07
+        lecture_decimal: 2.7
+        title: Latest I/O Devices
+      - unit: 2
+        lecture: 8
+        transcript_marker: U02_T08
+        index_marker: U02L08
+        lecture_decimal: 2.8
+        title: Summary and Keywords
+    - number: 3
+      title: Processing Data
+      lectures:
+      - unit: 3
+        lecture: 1
+        transcript_marker: U03_T01
+        index_marker: U03L01
+        lecture_decimal: 3.1
+        title: Functional Units of a Computer
+      - unit: 3
+        lecture: 2
+        transcript_marker: U03_T02
+        index_marker: U03L02
+        lecture_decimal: 3.2
+        title: Data vs Information
+      - unit: 3
+        lecture: 3
+        transcript_marker: U03_T03
+        index_marker: U03L03
+        lecture_decimal: 3.3
+        title: How Computers Represent Data
+      - unit: 3
+        lecture: 4
+        transcript_marker: U03_T04
+        index_marker: U03L04
+        lecture_decimal: 3.4
+        title: Methods of Processing Data
+      - unit: 3
+        lecture: 5
+        transcript_marker: U03_T05
+        index_marker: U03L05
+        lecture_decimal: 3.5
+        title: Machine Cycles
+      - unit: 3
+        lecture: 6
+        transcript_marker: U03_T06
+        index_marker: U03L06
+        lecture_decimal: 3.6
+        title: Memory Concepts
+      - unit: 3
+        lecture: 7
+        transcript_marker: U03_T07
+        index_marker: U03L07
+        lecture_decimal: 3.7
+        title: Registers and Their Roles
+      - unit: 3
+        lecture: 8
+        transcript_marker: U03_T08
+        index_marker: U03L08
+        lecture_decimal: 3.8
+        title: The System Bus
+      - unit: 3
+        lecture: 9
+        transcript_marker: U03_T09
+        index_marker: U03L09
+        lecture_decimal: 3.9
+        title: Cache Memory
+    - number: 4
+      title: Operating Systems
+      lectures:
+      - unit: 4
+        lecture: 1
+        transcript_marker: U04_T01
+        index_marker: U04L01
+        lecture_decimal: 4.1
+        title: What is an Operating System?
+      - unit: 4
+        lecture: 2
+        transcript_marker: U04_T02
+        index_marker: U04L02
+        lecture_decimal: 4.2
+        title: Functions of an Operating System
+      - unit: 4
+        lecture: 3
+        transcript_marker: U04_T03
+        index_marker: U04L03
+        lecture_decimal: 4.3
+        title: Operating System Kernel
+      - unit: 4
+        lecture: 4
+        transcript_marker: U04_T04
+        index_marker: U04L04
+        lecture_decimal: 4.4
+        title: Types of Operating Systems
+      - unit: 4
+        lecture: 5
+        transcript_marker: U04_T05
+        index_marker: U04L05
+        lecture_decimal: 4.5
+        title: User Interfaces
+      - unit: 4
+        lecture: 6
+        transcript_marker: U04_T06
+        index_marker: U04L06
+        lecture_decimal: 4.6
+        title: Running Programs and Processes
+      - unit: 4
+        lecture: 7
+        transcript_marker: U04_T07
+        index_marker: U04L07
+        lecture_decimal: 4.7
+        title: Sharing Information
+      - unit: 4
+        lecture: 8
+        transcript_marker: U04_T08
+        index_marker: U04L08
+        lecture_decimal: 4.8
+        title: Managing Hardware
+      - unit: 4
+        lecture: 9
+        transcript_marker: U04_T09
+        index_marker: U04L09
+        lecture_decimal: 4.9
+        title: Utility Software
+    - number: 5
+      title: Data Communication
+      lectures:
+      - unit: 5
+        lecture: 1
+        transcript_marker: U05_T01
+        index_marker: U05L01
+        lecture_decimal: 5.1
+        title: Local and Global Communication
+      - unit: 5
+        lecture: 2
+        transcript_marker: U05_T02
+        index_marker: U05L02
+        lecture_decimal: 5.2
+        title: Computer Networks
+      - unit: 5
+        lecture: 3
+        transcript_marker: U05_T03
+        index_marker: U05L03
+        lecture_decimal: 5.3
+        title: Data via Telephone Lines
+      - unit: 5
+        lecture: 4
+        transcript_marker: U05_T04
+        index_marker: U05L04
+        lecture_decimal: 5.4
+        title: Modems and Their Use
+      - unit: 5
+        lecture: 5
+        transcript_marker: U05_T05
+        index_marker: U05L05
+        lecture_decimal: 5.5
+        title: Digital Data Connections
+      - unit: 5
+        lecture: 6
+        transcript_marker: U05_T06
+        index_marker: U05L06
+        lecture_decimal: 5.6
+        title: Wireless Networks
+      - unit: 5
+        lecture: 7
+        transcript_marker: U05_T07
+        index_marker: U05L07
+        lecture_decimal: 5.7
+        title: Summary, Keywords, SAQs, Further Reading
+    - number: 6
+      title: Networks
+      lectures:
+      - unit: 6
+        lecture: 1
+        transcript_marker: U06_T01
+        index_marker: U06L01
+        lecture_decimal: 6.1
+        title: What is a Network?
+      - unit: 6
+        lecture: 2
+        transcript_marker: U06_T02
+        index_marker: U06L02
+        lecture_decimal: 6.2
+        title: Sharing Data Anytime, Anywhere
+      - unit: 6
+        lecture: 3
+        transcript_marker: U06_T03
+        index_marker: U06L03
+        lecture_decimal: 6.3
+        title: Uses of Networks
+      - unit: 6
+        lecture: 4
+        transcript_marker: U06_T04
+        index_marker: U06L04
+        lecture_decimal: 6.4
+        title: Types of Networks
+      - unit: 6
+        lecture: 5
+        transcript_marker: U06_T05
+        index_marker: U06L05
+        lecture_decimal: 6.5
+        title: Network Structure
+      - unit: 6
+        lecture: 6
+        transcript_marker: U06_T06
+        index_marker: U06L06
+        lecture_decimal: 6.6
+        title: Network Topologies
+      - unit: 6
+        lecture: 7
+        transcript_marker: U06_T07
+        index_marker: U06L07
+        lecture_decimal: 6.7
+        title: Hybrid Topologies
+      - unit: 6
+        lecture: 8
+        transcript_marker: U06_T08
+        index_marker: U06L08
+        lecture_decimal: 6.8
+        title: Network Protocols
+      - unit: 6
+        lecture: 9
+        transcript_marker: U06_T09
+        index_marker: U06L09
+        lecture_decimal: 6.9
+        title: Network Media
+      - unit: 6
+        lecture: 10
+        transcript_marker: U06_T10
+        index_marker: U06L10
+        lecture_decimal: 6.1
+        title: Network Hardware
+    - number: 7
+      title: Graphics and Multimedia
+      lectures:
+      - unit: 7
+        lecture: 1
+        transcript_marker: U07_T01
+        index_marker: U07L01
+        lecture_decimal: 7.1
+        title: Information Graphics
+      - unit: 7
+        lecture: 2
+        transcript_marker: U07_T02
+        index_marker: U07L02
+        lecture_decimal: 7.2
+        title: Graphics File Formats
+      - unit: 7
+        lecture: 3
+        transcript_marker: U07_T03
+        index_marker: U07L03
+        lecture_decimal: 7.3
+        title: Multimedia Concepts
+      - unit: 7
+        lecture: 4
+        transcript_marker: U07_T04
+        index_marker: U07L04
+        lecture_decimal: 7.4
+        title: Multimedia Basics
+      - unit: 7
+        lecture: 5
+        transcript_marker: U07_T05
+        index_marker: U07L05
+        lecture_decimal: 7.5
+        title: Graphics Software
+    - number: 8
+      title: Database Management Systems
+      lectures:
+      - unit: 8
+        lecture: 1
+        transcript_marker: U08_T01
+        index_marker: U08L01
+        lecture_decimal: 8.1
+        title: Data Processing
+      - unit: 8
+        lecture: 2
+        transcript_marker: U08_T02
+        index_marker: U08L02
+        lecture_decimal: 8.2
+        title: Databases
+      - unit: 8
+        lecture: 3
+        transcript_marker: U08_T03
+        index_marker: U08L03
+        lecture_decimal: 8.3
+        title: Types of Databases
+      - unit: 8
+        lecture: 4
+        transcript_marker: U08_T04
+        index_marker: U08L04
+        lecture_decimal: 8.4
+        title: Database Administrator (DBA)
+      - unit: 8
+        lecture: 5
+        transcript_marker: U08_T05
+        index_marker: U08L05
+        lecture_decimal: 8.5
+        title: DBMS Overview
+      - unit: 8
+        lecture: 6
+        transcript_marker: U08_T06
+        index_marker: U08L06
+        lecture_decimal: 8.6
+        title: Database Models
+      - unit: 8
+        lecture: 7
+        transcript_marker: U08_T07
+        index_marker: U08L07
+        lecture_decimal: 8.7
+        title: Working with a Database
+      - unit: 8
+        lecture: 8
+        transcript_marker: U08_T08
+        index_marker: U08L08
+        lecture_decimal: 8.8
+        title: Databases at Work
+      - unit: 8
+        lecture: 9
+        transcript_marker: U08_T09
+        index_marker: U08L09
+        lecture_decimal: 8.9
+        title: Common Corporate DBMS
+    - number: 9
+      title: Software Programming and Development
+      lectures:
+      - unit: 9
+        lecture: 1
+        transcript_marker: U09_T01
+        index_marker: U09L01
+        lecture_decimal: 9.1
+        title: Introduction to Software Programming
+      - unit: 9
+        lecture: 2
+        transcript_marker: U09_T02
+        index_marker: U09L02
+        lecture_decimal: 9.2
+        title: Planning a Computer Program
+      - unit: 9
+        lecture: 3
+        transcript_marker: U09_T03
+        index_marker: U09L03
+        lecture_decimal: 9.3
+        title: Hardware-Software Interaction
+      - unit: 9
+        lecture: 4
+        transcript_marker: U09_T04
+        index_marker: U09L04
+        lecture_decimal: 9.4
+        title: How Programs Solve Problems
+    - number: 10
+      title: Cloud Computing
+      lectures:
+      - unit: 10
+        lecture: 1
+        transcript_marker: U10_T01
+        index_marker: U10L01
+        lecture_decimal: 10.1
+        title: Cloud Computing Introduction
+      - unit: 10
+        lecture: 2
+        transcript_marker: U10_T02
+        index_marker: U10L02
+        lecture_decimal: 10.2
+        title: Cloud Service Models
+      - unit: 10
+        lecture: 3
+        transcript_marker: U10_T03
+        index_marker: U10L03
+        lecture_decimal: 10.3
+        title: Virtualization Concepts
+      - unit: 10
+        lecture: 4
+        transcript_marker: U10_T04
+        index_marker: U10L04
+        lecture_decimal: 10.4
+        title: Cloud Storage
+      - unit: 10
+        lecture: 5
+        transcript_marker: U10_T05
+        index_marker: U10L05
+        lecture_decimal: 10.5
+        title: Cloud Databases
+      - unit: 10
+        lecture: 6
+        transcript_marker: U10_T06
+        index_marker: U10L06
+        lecture_decimal: 10.6
+        title: Resource Management in Cloud Computing
+      - unit: 10
+        lecture: 7
+        transcript_marker: U10_T07
+        index_marker: U10L07
+        lecture_decimal: 10.7
+        title: SLAs in Cloud Computing
+    - number: 11
+      title: Internet of Things (IoT)
+      lectures:
+      - unit: 11
+        lecture: 1
+        transcript_marker: U11_T01
+        index_marker: U11L01
+        lecture_decimal: 11.1
+        title: History of IoT
+      - unit: 11
+        lecture: 2
+        transcript_marker: U11_T02
+        index_marker: U11L02
+        lecture_decimal: 11.2
+        title: Characteristics of IoT
+      - unit: 11
+        lecture: 3
+        transcript_marker: U11_T03
+        index_marker: U11L03
+        lecture_decimal: 11.3
+        title: Structure and Working
+      - unit: 11
+        lecture: 4
+        transcript_marker: U11_T04
+        index_marker: U11L04
+        lecture_decimal: 11.4
+        title: Building Blocks of IoT
+      - unit: 11
+        lecture: 5
+        transcript_marker: U11_T05
+        index_marker: U11L05
+        lecture_decimal: 11.5
+        title: Layered Architecture
+      - unit: 11
+        lecture: 6
+        transcript_marker: U11_T06
+        index_marker: U11L06
+        lecture_decimal: 11.6
+        title: IoT Applications
+      - unit: 11
+        lecture: 7
+        transcript_marker: U11_T07
+        index_marker: U11L07
+        lecture_decimal: 11.7
+        title: Role of Embedded Systems in IoT
+    - number: 12
+      title: Cryptocurrency
+      lectures:
+      - unit: 12
+        lecture: 1
+        transcript_marker: U12_T01
+        index_marker: U12L01
+        lecture_decimal: 12.1
+        title: Digital Currency Characteristics
+      - unit: 12
+        lecture: 2
+        transcript_marker: U12_T02
+        index_marker: U12L02
+        lecture_decimal: 12.2
+        title: What is Cryptocurrency?
+      - unit: 12
+        lecture: 3
+        transcript_marker: U12_T03
+        index_marker: U12L03
+        lecture_decimal: 12.3
+        title: History of Cryptocurrency
+      - unit: 12
+        lecture: 4
+        transcript_marker: U12_T04
+        index_marker: U12L04
+        lecture_decimal: 12.4
+        title: Types of Cryptocurrency
+      - unit: 12
+        lecture: 5
+        transcript_marker: U12_T05
+        index_marker: U12L05
+        lecture_decimal: 12.5
+        title: Digital vs Virtual vs Crypto
+      - unit: 12
+        lecture: 6
+        transcript_marker: U12_T06
+        index_marker: U12L06
+        lecture_decimal: 12.6
+        title: Cryptocurrency Security
+    - number: 13
+      title: Blockchain
+      lectures:
+      - unit: 13
+        lecture: 1
+        transcript_marker: U13_T01
+        index_marker: U13L01
+        lecture_decimal: 13.1
+        title: Characteristics of Blockchain
+      - unit: 13
+        lecture: 2
+        transcript_marker: U13_T02
+        index_marker: U13L02
+        lecture_decimal: 13.2
+        title: Benefits of Blockchain
+      - unit: 13
+        lecture: 3
+        transcript_marker: U13_T03
+        index_marker: U13L03
+        lecture_decimal: 13.3
+        title: Distributed vs Centralized Ledgers
+      - unit: 13
+        lecture: 4
+        transcript_marker: U13_T04
+        index_marker: U13L04
+        lecture_decimal: 13.4
+        title: Types of Blockchain
+      - unit: 13
+        lecture: 5
+        transcript_marker: U13_T05
+        index_marker: U13L05
+        lecture_decimal: 13.5
+        title: Blockchain Transaction Mechanism
+      - unit: 13
+        lecture: 6
+        transcript_marker: U13_T06
+        index_marker: U13L06
+        lecture_decimal: 13.6
+        title: Blockchain Applications
+      - unit: 13
+        lecture: 7
+        transcript_marker: U13_T07
+        index_marker: U13L07
+        lecture_decimal: 13.7
+        title: Blockchain and Bitcoin
+      - unit: 13
+        lecture: 8
+        transcript_marker: U13_T08
+        index_marker: U13L08
+        lecture_decimal: 13.8
+        title: Challenges in Blockchain
+      - unit: 13
+        lecture: 9
+        transcript_marker: U13_T09
+        index_marker: U13L09
+        lecture_decimal: 13.9
+        title: Blockchain in Business
+    - number: 14
+      title: Futuristic World of Data Analytics
+      lectures:
+      - unit: 14
+        lecture: 1
+        transcript_marker: U14_T01
+        index_marker: U14L01
+        lecture_decimal: 14.1
+        title: Traditional Databases vs Big Data
+      - unit: 14
+        lecture: 2
+        transcript_marker: U14_T02
+        index_marker: U14L02
+        lecture_decimal: 14.2
+        title: History of Big Data
+      - unit: 14
+        lecture: 3
+        transcript_marker: U14_T03
+        index_marker: U14L03
+        lecture_decimal: 14.3
+        title: Characteristics of Big Data
+      - unit: 14
+        lecture: 4
+        transcript_marker: U14_T04
+        index_marker: U14L04
+        lecture_decimal: 14.4
+        title: Types of Big Data
+      - unit: 14
+        lecture: 5
+        transcript_marker: U14_T05
+        index_marker: U14L05
+        lecture_decimal: 14.5
+        title: How Big Data Works
+      - unit: 14
+        lecture: 6
+        transcript_marker: U14_T06
+        index_marker: U14L06
+        lecture_decimal: 14.6
+        title: Big Data Analytics
+      - unit: 14
+        lecture: 7
+        transcript_marker: U14_T07
+        index_marker: U14L07
+        lecture_decimal: 14.7
+        title: Role of Statistics
+      - unit: 14
+        lecture: 8
+        transcript_marker: U14_T08
+        index_marker: U14L08
+        lecture_decimal: 14.8
+        title: Applications of Statistical Learning
+paths:
+  toc_root: toc/
+  website_root: website/docs/
+  rules_root: rules/
+  source_transcripts_private: ~/msc-maths-private/transcripts/
+  source_indexes_public: toc/sem1/
+  output_structure: "website/docs/sem1/<course>/u<unit>/<unit>.<lecture>/"
+generation_rules:
+  latex_mode: ASCII_LaTeX
+  transcript_format: pedagogical
+  notes_format: concise_bullets
+  enforce_ascii: true
+  enforce_yaml_frontmatter: true
+  enforce_mapping_validation: true
+validation:
+  check_ascii: true
+  check_latex: true
+  check_frontmatter: true
+  check_filename_pattern: true
+  check_index_alignment: true
