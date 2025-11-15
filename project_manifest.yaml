@@ -3,14 +3,41 @@ project: "MSc Mathematics Transcript and Notes Generator for Docusaurus"
 description: "Machine-readable manifest of courses, units, and lectures. No copyrighted content."
 author: "Deepak Nair"
 
+paths:
+  toc_root: toc/
+  website_root: website/content/
+  rules_root: rules/
+  source_indexes_public: toc/term_1/
+  output_structure: "website/content/term_1/<course>/<unit>/"
+
+generation_rules:
+  rules_file: project_guidelines.md
+  follow_rules: strict
+  latex_mode: ASCII_LaTeX
+  transcript_format: pedagogical
+  notes_format: concise_bullets
+  enforce_ascii: true
+  enforce_yaml_frontmatter: true
+  enforce_mapping_validation: true
+  reference_index_file: '{course}_index.md | lower'
+  reference_video_transcript: '{course}_{unit}_transcript.txt | lower'
+  generated_filenames_format:
+    lecture_transcript: '{course}_{unit}{lecture}_1_t.md | lower'
+    lecture_notes: '{course}_{unit}{lecture}_2_n.md | lower'
+
+validation:
+  check_ascii: true
+  check_latex: true
+  check_frontmatter: true
+  check_filename_pattern: true
+  check_index_alignment: true
+
 Terms:
 - id: term_1
   title: Term 1
   courses:
   - code: emth515
     name: "EMTH515 - Real Analysis - I"
-    index_file: emth515_index.md
-    video_transcript: emth515_transcript.txt
     course_book: 7916_EMTH515_REAL_ANALYSIS-I.pdf
     units:
     - number: U01
@@ -1335,27 +1362,3 @@ Terms:
         lecture: L08
         transcript_marker: U14L08
         title: Applications of Statistical Learning
-paths:
-  toc_root: toc/
-  website_root: website/content/
-  rules_root: rules/
-  source_indexes_public: toc/term_1/
-  output_structure: "website/content/term_1/<course>/<unit>/"
-generation_rules:
-  rules_file: master_project_guidelines.md
-  follow_rules: strict
-  latex_mode: ASCII_LaTeX
-  transcript_format: pedagogical
-  notes_format: concise_bullets
-  enforce_ascii: true
-  enforce_yaml_frontmatter: true
-  enforce_mapping_validation: true
-  filename_format:
-    lecture_transcript: '{course}_{unit}{lecture}_1_t.md | lower'
-    lecture_notes: '{course}_{unit}{lecture}_2_n.md | lower'
-validation:
-  check_ascii: true
-  check_latex: true
-  check_frontmatter: true
-  check_filename_pattern: true
-  check_index_alignment: true

@@ -138,41 +138,128 @@ If numbering does not match the index, the assistant must ask user before genera
 
 # 7. Transcript Structure
 
-Transcripts must:
-- be pedagogical and structured
-- remain faithful to original content
-- clarify but not alter mathematical meaning
-- reorganize for clarity but not omit any content
+Every transcript file must be produced as a downloadable Markdown file by default.
+Canvas rendering does not replace generating a downloadable file. The assistant must refrain
+from skipping the downloadable file unless the user explicitly requests otherwise.
 
-Structure:
-- Learning Outcomes
-- Introduction
-- Definitions
-- Main Development
-- Examples
-- Summary
-- Glossary (if needed)
+Two transcript modes are allowed:
+
+1. Literal Transcript (Mode A)
+   - A cleaned and lightly edited version of the original spoken transcript.
+   - No reordering of ideas.
+   - No addition, removal, or reinterpretation of content.
+   - Grammar may be corrected; OCR errors may be fixed.
+   - Structure follows the lecture flow exactly as delivered.
+   - Used only when explicitly requested by the user.
+
+2. Pedagogical Transcript (Mode B)
+   - A structured, reorganized, explanatory rewrite.
+   - Must include all content from the original transcript, without adding new material.
+   - May reorganize ideas for clarity.
+   - May expand short spoken fragments into full explanatory sentences.
+   - This is the default transcript mode unless the user explicitly requests Mode A.
+
+General Rules (apply to both modes):
+- Must remain faithful to the mathematical meaning.
+- Must use only ASCII-safe LaTeX.
+- Must not invent examples, theorems, or steps not present in the source.
+- Must be formatted in a clean, clear academic style.
+- The first Markdown heading in the file body must be an H1 (#) that exactly matches the YAML title field.
+
+## Structure for Pedagogical Transcripts (Mode B)
+Pedagogical transcripts must follow this structure:
+
+1. H1 Title  
+   - Must exactly match the YAML `title:` value.
+
+2. Learning Outcomes  
+   - A short list summarizing what the lecture teaches.
+   - Must be directly supported by the lecture content.
+
+3. Introduction  
+   - High-level context for the lecture.
+   - No new information beyond what is in the transcript.
+
+4. Definitions  
+   - Precise definitions exactly as given in the lecture.
+   - Reformulation allowed for clarity, but no new definitions.
+
+5. Main Development  
+   - Step-by-step structured explanation of all ideas, results, proofs, and calculations.
+   - Reorganization for clarity is allowed.
+
+6. Examples  
+   - Only if examples appear in the transcript.
+   - Must not create new examples.
+
+7. Summary  
+   - A concise restatement of the lecture’s essential points.
+
+8. Glossary (optional)  
+   - Only if terminology is explicitly introduced.
 
 # 8. Notes Structure
 
-Notes must:
-- be concise
-- use bullet points
-- contain no invented content
-- compress information without losing meaning
+Notes are compressed, bullet-based study notes derived strictly from the transcript of the same lecture.
+They summarize but never invent content.
+
+Every notes file must be produced as a downloadable Markdown file by default.
+Canvas rendering does not replace generating a downloadable file. The assistant must refrain
+from skipping the downloadable file unless the user explicitly requests otherwise.
+
+General Rules:
+- Must be concise.
+- Must preserve all mathematical meaning.
+- Must use bullet points, not paragraphs.
+- Must use ASCII-safe LaTeX.
+- Must never add new examples, proofs, results, or interpretations.
+- Must follow the ordering of ideas in the pedagogical transcript (Mode B).
+- The first Markdown heading in the file body must be an H1 (#) that exactly matches the YAML title field.
+
+Required Notes Structure:
+
+1. H1 Title  
+   - Must exactly match the YAML `title:` value.
+
+2. Key Points  
+   - Bullet summary of the lecture's core ideas.
+   - Must reflect every major topic covered.
+
+3. Definitions and Notation  
+   - Bullet list of all definitions, symbols, and notation introduced.
+
+4. Core Results  
+   - Bullet statements of all theorems, lemmas, or propositions appearing in the lecture.
+   - Proofs should not be included unless the transcript explicitly walks through them, in which case a brief bullet outline is allowed.
+
+5. Important Derivations  
+   - Stepwise bullet summaries of any derivations, inequalities, or calculations shown.
+   - All mathematics must be written in ASCII-safe LaTeX.
+
+6. Relationships and Interpretations  
+   - Bullet explanation of how the results fit together.
+   - Includes inequality chains, monotonicity behavior, equivalence criteria, etc.
+
+7. Summary  
+   - Compact end-of-lecture recap.
+   - No examples, no commentary, no new interpretations.
+
+Optional:
+8. Additional Remarks  
+   - Only if such remarks appear explicitly in the transcript.
+   - Must not introduce new insights, intuition, or external context.
 
 # 9. Numbering Rules
 
 1. Unit and lecture numbers must match the index file.
 2. No invented lectures.
-3. No phantom entries such as 1.6 or 2.8.
-4. If uncertain, the assistant must ask.
+3. If uncertain, the assistant must ask.
 
 # 9.1 Mapping Rules Between Transcript Markers, Index Entries, and File Names
 
-1. Transcript markers use UUU_TLL (e.g., U01_T02).
-2. Index entries use UUU L LL (e.g., U01L02).
-3. Output filenames use uUU_LL (e.g., 1.2).
+1. Transcript markers use UUULLL (e.g., U01L02).
+2. Index entries use UUULLL (e.g., U01L02).
+3. Output filenames use uuulll (e.g., u01l02).
 4. These mappings must match exactly.
 5. If any mismatch appears, the assistant must stop and ask.
 
