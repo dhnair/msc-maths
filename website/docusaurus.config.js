@@ -7,7 +7,7 @@ export default {
   favicon: 'img/favicon.ico',
 
   url: 'https://dhnair.github.io',
-  baseUrl: '/maths/',
+  baseUrl: '/msc-maths/',
   organizationName: 'dhnair',
   projectName: 'msc-maths',
 
