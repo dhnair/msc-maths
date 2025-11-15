@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const DOCS_ROOT = path.join(__dirname, "../docs");
+const DOCS_ROOT = path.join(__dirname, "../content");
 const INDEX_DIR = path.join(DOCS_ROOT, "index");
 const INDEX_FILE = path.join(INDEX_DIR, "index.md");
 

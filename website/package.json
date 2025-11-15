@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "prestart": "node scripts/generate-index.js",
     "prebuild": "node scripts/generate-index.js",
     "start": "docusaurus start",
     "build": "docusaurus build",

@@ -7,7 +7,7 @@ export default {
   favicon: 'img/favicon.ico',
 
   url: 'https://dhnair.github.io',
-  baseUrl: '/msc-maths/',
+  baseUrl: '/maths/',
   organizationName: 'dhnair',
   projectName: 'msc-maths',
 
@@ -38,7 +38,6 @@ export default {
         {
           title: 'Resources',
           items: [
-            {label: 'GitHub', href: 'https://github.com/dhnair/msc-maths'},
             {label: 'LinkedIn', href: 'https://linkedin.com/in/dhnair'},
           ],
         },
@@ -51,19 +50,21 @@ export default {
     },
   },
 
-  presets: [
+    presets: [
     [
-      'classic',
-      {
+        'classic',
+        {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          remarkPlugins: [require('remark-math')],
-          rehypePlugins: [require('rehype-katex')],
+            path: 'content',
+            routeBasePath: '/content/',
+            sidebarPath: require.resolve('./sidebars.js'),
+            showLastUpdateAuthor: true,
+            showLastUpdateTime: true,
+            remarkPlugins: [require('remark-math')],
+            rehypePlugins: [require('rehype-katex')],
         },
         theme: {customCss: require.resolve('./src/css/custom.css')},
-      },
+        },
     ],
-  ],
+    ],
 };

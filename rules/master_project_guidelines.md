@@ -2,7 +2,7 @@
 title: "Master Project Purpose and Guidelines"
 type: "Guidelines"
 project: "MSc Mathematics - Unified Transcript and Notes Generation Rules"
-version: "1.2"
+version: "2.0"
 ---
 
 # 1. Project Purpose
@@ -98,7 +98,7 @@ To ensure correct rendering in Obsidian, MkDocs, Markor, and Docusaurus:
 Each file must begin with:
 
 ---
-title: "X.Y - <Lecture Title> (Transcript or Notes)"
+title: "<UNIT NUMBER><LECTURE NUMBER> - <Lecture Title> (Transcript or Notes)"
 type: "Transcript" or "Notes"
 course: "<COURSE CODE> - <COURSE NAME>"
 unit: "<UNIT NUMBER> - <UNIT TITLE>"
@@ -107,32 +107,36 @@ file: <exact filename>
 tags:
   - MScMathematics
   - <Course Code>
+  - <UNIT NUMBER><LECTURE NUMBER>
   - <Concept>
   - Transcript or Notes
 ---
 
 Rules:
-- Title must begin with the lecture number.
+- Unit number starts with U, and lecture number starts with L
+- Title must begin with the unit and lecture number. eg; U05L02
 - Title must use ASCII hyphens.
 - The file field must exactly match the filename.
 
 # 6. Filename Rules
 
+Case:
+All lower case
+
 Pattern:
-<course>_uUU_LL_(a or b)_(transcript or notes).md
+- Transcript: <course code>_<unit number><lecture number>_1_t.md
+- Notes: <course code>_<unit number><lecture number>_1_n.md
 
 Example:
-emth515_u01_1.2_a_transcript.md
+emth515_u01l01_1_t.md
+emth515_u01l01_2_n.md
+egen530_u11l03_1_t.md
+egen530_u11l03_2_n.md
 
-Where:
-- <course> is lowercase course code.
-- UU is 2-digit unit number.
-- LL is the lecture number in decimal form.
-- a = transcript, b = notes.
+Rule:
+If numbering does not match the index, the assistant must ask user before generating.
 
-If numbering does not match the index, the assistant must ask before generating.
-
-# 7. Transcript Structure (Option C)
+# 7. Transcript Structure
 
 Transcripts must:
 - be pedagogical and structured
@@ -149,7 +153,7 @@ Structure:
 - Summary
 - Glossary (if needed)
 
-# 8. Notes Structure (Option C)
+# 8. Notes Structure
 
 Notes must:
 - be concise

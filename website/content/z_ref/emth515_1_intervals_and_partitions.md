@@ -1,15 +1,14 @@
 ---
-title: "Intervals and Partitions"
-course: "Preliminaries for Real Analysis"
-lecture: "Intervals and Partitions of Intervals"
-type: "Transcript"
+title: "EMTH515 - Intervals and Partitions in Real Analysis"
+type: "Reference"
 tags:
   - MScMathematics
-  - RealAnalysis
-  - References
+  - EMTH515
+  - Real Analysis
+  - Reference
 ---
 
-# Intervals and Partitions in Real Analysis
+# EMTH515 - Intervals and Partitions in Real Analysis
 
 ---
 

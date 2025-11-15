@@ -36,15 +36,18 @@ msc-maths/
 ├── website/
 │   ├── docusaurus.config.js
 │   ├── sidebars.js
-│   ├── docs/
+│   ├── content/
 │   │   ├── index/
 │   │   │   └── index.md
-│   │   ├── sem1/
+│   │   ├── term_1/
 │   │   │   ├── ecap145/
 │   │   │   │   ├── u01/
-│   │   │   │   │   ├── 1.1/
-│   │   │   │   │   │   ├── ecap145_u01_1.1_a_transcript.md
-│   │   │   │   │   │   └── ecap145_u01_1.1_b_notes.md
+│   │   │   │   │   ├── ecap145_u01l01_1_t.md
+│   │   │   │   │   └── ecap145_u01l01_2_n.md
+│   │   │   │   └── _catalogue.md
+│   │   │   │   ├── u02/
+│   │   │   │   │   ├── ecap145_u02l01_1_t.md
+│   │   │   │   │   └── ecap145_u02l01_2_n.md
 │   │   │   │   └── _catalogue.md
 │   │   │   ├── emth515/
 │   │   │   └── emth516/
@@ -54,8 +57,8 @@ msc-maths/
 │   └── scripts/
 │       └── generate-index.js
 ├── toc/
-│   └── sem1/
-│       └── ECAP145.md
+│   └── seterm_1m1/
+│       └── ecap145_index.md
 ├── bin/
 │   └── generate_catalogues.py
 ├── .github/
@@ -68,7 +71,7 @@ msc-maths/
 
 | Directory | Purpose |
 |------------|----------|
-| `website/docs/` | Source Markdown files for each course and semester |
+| `website/content/` | Source Markdown files for each course and semester |
 | `toc/` | Table of Contents files used to generate `_catalogue.md` files |
 | `bin/` | Python automation scripts for cataloguing courses |
 | `scripts/` | Node.js automation scripts for generating index pages |
@@ -134,7 +137,7 @@ Publishing is **fully automated** through **GitHub Actions** using [`deploy.yaml
    - Deploy the static site to the **`gh-pages`** branch
 3. **Result:**  
    ✅ Your live site updates automatically at:  
-   [https://dhnair.github.io/msc-maths/](https://dhnair.github.io/msc-maths/)
+   [https://dhnair.github.io/maths/](https://dhnair.github.io/maths/)
 
 You can manually trigger the workflow from:  
 **GitHub → Actions → Deploy Docusaurus site to GitHub Pages → Run workflow**
@@ -211,7 +214,7 @@ If any content is believed to infringe upon rights or should be removed, please 
 
 **Deepak Nair**  
 📍 M.Sc. Mathematics  
-🔗 [https://dhnair.github.io/msc-maths/](https://dhnair.github.io/msc-maths/)
+🔗 [https://dhnair.github.io/maths/](https://dhnair.github.io/maths/)
 
 © 2025 Deepak Nair — Shared under an **Educational Use License**.  
 All trademarks, course codes, and curriculum references remain the property of their respective institutions.
