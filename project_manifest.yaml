@@ -1339,10 +1339,10 @@ Terms:
         title: Applications of Statistical Learning
 paths:
   toc_root: toc/
-  website_root: website/docs/
+  website_root: website/content/
   rules_root: rules/
   source_indexes_public: toc/term_1/
-  output_structure: "website/docs/term_1/<course>/<unit>/"
+  output_structure: "website/content/term_1/<course>/<unit>/"
 generation_rules:
   latex_mode: ASCII_LaTeX
   transcript_format: pedagogical
