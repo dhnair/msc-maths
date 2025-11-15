@@ -24,10 +24,13 @@ generation_rules:
   generated_filenames_format:
     lecture_transcript: '{course}_{unit}{lecture}_1_t.md | lower'
     lecture_notes: '{course}_{unit}{lecture}_2_n.md | lower'
+  output_format:
+    math_delimiters: "dollars-only" # allowed values: "dollars-only", "any"
 
 validation:
   check_ascii: true
   check_latex: true
+  check_mdx_syntax: true # Should be remark-math and rehype-katex compatible
   check_frontmatter: true
   check_filename_pattern: true
   check_index_alignment: true

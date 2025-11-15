@@ -22,6 +22,26 @@ All generated content must be:
 - future-proof and easy to maintain
 - ASCII-only and LaTeX-only for maximum compatibility
 
+Math delimiter rule (required when output_format.math_delimiters == "dollars-only"):
+
+- Use dollar delimiters only:
+  - Inline math: `$ ... $`
+  - Display math: `$$ ... $$`
+
+- Forbidden:
+  - `\(` `\)`
+  - `\[ ` `\]`
+  - Any backslash-wrapped delimiter sequences that denote math
+
+- Allowed:
+  - LaTeX commands inside dollar math (e.g. `\alpha`, `\sum`, `\int`).
+  - Backslashes used inside allowed math blocks for LaTeX macros.
+
+- Implementation requirements:
+  - Generator must run a preflight check that rejects any output containing the forbidden delimiter patterns.
+  - CI must fail if any committed content contains the forbidden delimiters.
+  - Generator may automatically convert `\(...\)` -> `$...$` and `\[...\]` -> `$$...$$` when the manifest flag is `dollars-only`.
+
 This project must operate with strict discipline:
 - no guessing
 - no hallucination
@@ -270,6 +290,29 @@ Optional:
 - No HTML or JSX
 - No raw < or >
 - Avoid {} unless inside code blocks
+
+## 10.1 MDX LaTeX Compatibility Rules (activated when check_mdx_syntax = true)
+
+When this flag is enabled:
+
+Allowed:
+- Inline math wrapped with dollar signs: $ ... $
+- Display math wrapped with double dollar signs:
+
+  $$
+  ...
+  $$
+
+- LaTeX macros inside math blocks (e.g., \alpha, \sum, \int)
+
+Forbidden:
+- \(...\)
+- \[...\]
+- any LaTeX math delimiter starting with backslash rather than $-delimiters
+- any math expression containing a standalone backslash outside $...$ or $$...$$
+
+The generator must reject or rewrite any output violating these rules.
+
 
 # 11. Error Prevention Rules
 
