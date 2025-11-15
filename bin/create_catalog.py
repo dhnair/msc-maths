@@ -1,12 +1,12 @@
 import os
 import re
 
-SEMESTER = "1"  # Change this for different semesters
+TERM = "1"  # Change this for different semesters/terms
 
 # Directories relative to this script’s location
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-TOC_DIR = os.path.join(SCRIPT_DIR, "../toc/sem" + SEMESTER)
-DOCS_DIR = os.path.join(SCRIPT_DIR, "../website/docs/sem" + SEMESTER)
+TOC_DIR = os.path.join(SCRIPT_DIR, "../toc/term_" + TERM)
+DOCS_DIR = os.path.join(SCRIPT_DIR, "../website/docs/term_" + TERM)
 
 def parse_toc(toc_path):
     """Parse a TOC markdown file into a nested dict structure."""
