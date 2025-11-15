@@ -2,9 +2,7 @@ version: '2.0'
 project: "MSc Mathematics Transcript and Notes Generator for Docusaurus"
 description: "Machine-readable manifest of courses, units, and lectures. No copyrighted content."
 author: "Deepak Nair"
-marker_format:
-  lecture_transcript: '{course}_{unit}{lecture}_1_t.md | lower'
-  lecture_notes: '{course}_{unit}{lecture}_2_n.md | lower'
+
 Terms:
 - id: term_1
   title: Term 1
@@ -1344,12 +1342,17 @@ paths:
   source_indexes_public: toc/term_1/
   output_structure: "website/content/term_1/<course>/<unit>/"
 generation_rules:
+  rules_file: master_project_guidelines.md
+  follow_rules: strict
   latex_mode: ASCII_LaTeX
   transcript_format: pedagogical
   notes_format: concise_bullets
   enforce_ascii: true
   enforce_yaml_frontmatter: true
   enforce_mapping_validation: true
+  filename_format:
+    lecture_transcript: '{course}_{unit}{lecture}_1_t.md | lower'
+    lecture_notes: '{course}_{unit}{lecture}_2_n.md | lower'
 validation:
   check_ascii: true
   check_latex: true
